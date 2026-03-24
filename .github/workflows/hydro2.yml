@@ -1,4 +1,4 @@
-name: Makoshine hydro scraper
+name: Hydro scraper — all rivers
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
     - cron: '0-30 7 * * *'
 
 concurrency:
-  group: makoshine-scraper
+  group: hydro2-scraper
   cancel-in-progress: true
 
 permissions:
@@ -39,17 +39,15 @@ jobs:
 
       - name: Show summary
         run: |
-          echo "=== all-posts.json (перші 40 рядків) ==="
-          head -40 all-posts.json
-          echo "=== desna-posts.json (legacy) ==="
-          cat desna-posts.json
+          echo "=== Результат (перші 50 рядків) ==="
+          head -50 all-posts.json
 
-      - name: Commit JSON to repo
+      - name: Commit data to repo
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add all-posts.json all-history.json desna-posts.json desna-history.json
-          git commit -m "update hydro data — all rivers" || echo "no changes"
+          git add all-posts.json all-history.json marker-cache.json
+          git commit -m "update hydro data — all rivers $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "no changes"
           git push
 
       - name: Upload all-posts.json
@@ -57,9 +55,3 @@ jobs:
         with:
           name: all-posts-json
           path: all-posts.json
-
-      - name: Upload desna-posts.json (legacy)
-        uses: actions/upload-artifact@v4
-        with:
-          name: desna-posts-json
-          path: desna-posts.json
