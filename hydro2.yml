@@ -1,0 +1,57 @@
+name: Hydro scraper — all rivers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+    - cron: '30-59 6 * * *'
+    - cron: '0-30 7 * * *'
+
+concurrency:
+  group: hydro2-scraper
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Install Playwright browser and Linux deps
+        run: npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: node fetch-makoshine.js
+
+      - name: Show summary
+        run: |
+          echo "=== Результат (перші 50 рядків) ==="
+          head -50 all-posts.json
+
+      - name: Commit data to repo
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add all-posts.json all-history.json marker-cache.json
+          git commit -m "update hydro data — all rivers $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "no changes"
+          git push
+
+      - name: Upload all-posts.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-posts-json
+          path: all-posts.json
