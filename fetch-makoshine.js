@@ -159,7 +159,6 @@ function buildQuickChartUrl(title, historyItems) {
 // ── Popup parsing ────────────────────────────────────────────────────────────
 
 function parsePopupText(text) {
-  // Прибираємо зайві пробіли але зберігаємо структуру
   const cleaned = text.replace(/\s+/g, ' ').trim();
   const result  = {
     post:                null,
@@ -174,15 +173,8 @@ function parsePopupText(text) {
 
   let m;
 
-  // Стандартний формат: "Пост: Сновськ"
   m = cleaned.match(/Пост:\s*([^\n\r]+?)(?=\s*Річка:|\s*Дані на|\s*Фактичний рівень|$)/iu);
   if (m) result.post = m[1].trim();
-
-  // Fallback: якщо пост — це просто перше слово/фраза до "Річка:"
-  if (!result.post) {
-    m = cleaned.match(/^([^\n\r]+?)(?=\s*Річка:)/iu);
-    if (m) result.post = m[1].replace(/^Пост:\s*/iu, '').trim();
-  }
 
   m = cleaned.match(/Річка:\s*([^\n\r]+?)(?=\s*Дані на|\s*Фактичний рівень|$)/iu);
   if (m) result.river = m[1].trim();
@@ -244,17 +236,8 @@ async function getUniqueMarkerIndices(page) {
 
   for (let i = 0; i < count; i++) {
     try {
-      // Використовуємо transform + src іконки як унікальний ключ
-      // (деякі маркери мають однаковий transform але різні іконки)
-      const key = await markers.nth(i).evaluate(el => {
-        const transform = el.style.transform || '';
-        const img = el.querySelector('img');
-        const src = img ? (img.src || img.getAttribute('src') || '') : '';
-        // Беремо лише filename іконки (без повного URL)
-        const iconName = src.split('/').pop();
-        return transform + '|' + iconName;
-      });
-      if (!seen.has(key)) { seen.add(key); result.push(i); }
+      const style = await markers.nth(i).evaluate(el => el.style.transform || '');
+      if (!seen.has(style)) { seen.add(style); result.push(i); }
     } catch (e) {}
   }
 
@@ -301,79 +284,7 @@ async function scrapeAllMarkers(page, uniqueIndices, cache) {
   return postMap;
 }
 
-// ── Список постів що стабільно пропускаються автоскрапом ────────────────────
-// Додавай сюди пости якщо вони є на карті але не потрапляють у збір.
-// Формат: { post, river } — скрипт знайде їх по назві серед ВСІХ маркерів.
-
-const MANUAL_TARGETS = [
-  { post: 'Сновськ', river: 'Снов' },
-];
-
-async function scrapeManualTargets(page, postMap, cache) {
-  if (!MANUAL_TARGETS.length) return;
-
-  const totalCount = await page.locator('.leaflet-marker-icon').count();
-  console.log(`Шукаємо ${MANUAL_TARGETS.length} пропущених постів серед ${totalCount} маркерів...`);
-
-  for (const target of MANUAL_TARGETS) {
-    const key = `${target.river}__${target.post}`;
-    if (postMap[key]) {
-      console.log(`  Вже є: ${target.post}`);
-      continue;
-    }
-
-    let found = false;
-
-    // Перевіряємо кеш
-    const cachedIndex = cache[target.post];
-    if (typeof cachedIndex === 'number') {
-      const r = await clickMarkerAndRead(page, cachedIndex, totalCount);
-      if (r.ok && r.parsed.post === target.post) {
-        postMap[key] = {
-          found_index:         cachedIndex,
-          post:                r.parsed.post,
-          river:               r.parsed.river || target.river,
-          observed_at:         r.parsed.observed_at,
-          water_level_cm:      r.parsed.water_level_cm,
-          delta_direction:     r.parsed.delta_direction,
-          delta_24h_cm:        r.parsed.delta_24h_cm,
-          water_temperature_c: r.parsed.water_temperature_c,
-        };
-        console.log(`  ✅ ${target.post} знайдено з кешу (індекс ${cachedIndex})`);
-        found = true;
-      }
-    }
-
-    // Повний перебір якщо кеш не допоміг
-    if (!found) {
-      for (let i = 0; i < totalCount; i++) {
-        const r = await clickMarkerAndRead(page, i, totalCount);
-        if (!r.ok || !r.parsed.post) continue;
-
-        if (r.parsed.post.toLowerCase() === target.post.toLowerCase()) {
-          cache[target.post] = i;
-          postMap[key] = {
-            found_index:         i,
-            post:                r.parsed.post,
-            river:               r.parsed.river || target.river,
-            observed_at:         r.parsed.observed_at,
-            water_level_cm:      r.parsed.water_level_cm,
-            delta_direction:     r.parsed.delta_direction,
-            delta_24h_cm:        r.parsed.delta_24h_cm,
-            water_temperature_c: r.parsed.water_temperature_c,
-          };
-          console.log(`  ✅ ${target.post} знайдено (індекс ${i})`);
-          found = true;
-          break;
-        }
-      }
-    }
-
-    if (!found) {
-      console.log(`  ❌ ${target.post} не знайдено на карті`);
-    }
-  }
-}
+// ── Group by river ───────────────────────────────────────────────────────────
 
 function groupByRiver(postMap, history) {
   const rivers = {};
@@ -423,10 +334,6 @@ function groupByRiver(postMap, history) {
 
     // Збираємо всі пости
     const postMap = await scrapeAllMarkers(page, uniqueIndices, cache);
-
-    // Додатково шукаємо пости що пропустив основний скрап
-    await scrapeManualTargets(page, postMap, cache);
-
     saveCache(cache);
 
     const postCount  = Object.keys(postMap).length;
