@@ -301,7 +301,79 @@ async function scrapeAllMarkers(page, uniqueIndices, cache) {
   return postMap;
 }
 
-// ── Group by river ───────────────────────────────────────────────────────────
+// ── Список постів що стабільно пропускаються автоскрапом ────────────────────
+// Додавай сюди пости якщо вони є на карті але не потрапляють у збір.
+// Формат: { post, river } — скрипт знайде їх по назві серед ВСІХ маркерів.
+
+const MANUAL_TARGETS = [
+  { post: 'Сновськ', river: 'Снов' },
+];
+
+async function scrapeManualTargets(page, postMap, cache) {
+  if (!MANUAL_TARGETS.length) return;
+
+  const totalCount = await page.locator('.leaflet-marker-icon').count();
+  console.log(`Шукаємо ${MANUAL_TARGETS.length} пропущених постів серед ${totalCount} маркерів...`);
+
+  for (const target of MANUAL_TARGETS) {
+    const key = `${target.river}__${target.post}`;
+    if (postMap[key]) {
+      console.log(`  Вже є: ${target.post}`);
+      continue;
+    }
+
+    let found = false;
+
+    // Перевіряємо кеш
+    const cachedIndex = cache[target.post];
+    if (typeof cachedIndex === 'number') {
+      const r = await clickMarkerAndRead(page, cachedIndex, totalCount);
+      if (r.ok && r.parsed.post === target.post) {
+        postMap[key] = {
+          found_index:         cachedIndex,
+          post:                r.parsed.post,
+          river:               r.parsed.river || target.river,
+          observed_at:         r.parsed.observed_at,
+          water_level_cm:      r.parsed.water_level_cm,
+          delta_direction:     r.parsed.delta_direction,
+          delta_24h_cm:        r.parsed.delta_24h_cm,
+          water_temperature_c: r.parsed.water_temperature_c,
+        };
+        console.log(`  ✅ ${target.post} знайдено з кешу (індекс ${cachedIndex})`);
+        found = true;
+      }
+    }
+
+    // Повний перебір якщо кеш не допоміг
+    if (!found) {
+      for (let i = 0; i < totalCount; i++) {
+        const r = await clickMarkerAndRead(page, i, totalCount);
+        if (!r.ok || !r.parsed.post) continue;
+
+        if (r.parsed.post.toLowerCase() === target.post.toLowerCase()) {
+          cache[target.post] = i;
+          postMap[key] = {
+            found_index:         i,
+            post:                r.parsed.post,
+            river:               r.parsed.river || target.river,
+            observed_at:         r.parsed.observed_at,
+            water_level_cm:      r.parsed.water_level_cm,
+            delta_direction:     r.parsed.delta_direction,
+            delta_24h_cm:        r.parsed.delta_24h_cm,
+            water_temperature_c: r.parsed.water_temperature_c,
+          };
+          console.log(`  ✅ ${target.post} знайдено (індекс ${i})`);
+          found = true;
+          break;
+        }
+      }
+    }
+
+    if (!found) {
+      console.log(`  ❌ ${target.post} не знайдено на карті`);
+    }
+  }
+}
 
 function groupByRiver(postMap, history) {
   const rivers = {};
@@ -351,6 +423,10 @@ function groupByRiver(postMap, history) {
 
     // Збираємо всі пости
     const postMap = await scrapeAllMarkers(page, uniqueIndices, cache);
+
+    // Додатково шукаємо пости що пропустив основний скрап
+    await scrapeManualTargets(page, postMap, cache);
+
     saveCache(cache);
 
     const postCount  = Object.keys(postMap).length;
