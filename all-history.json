@@ -2394,9 +2394,9 @@
     },
     {
       "date": "2026-03-31",
-      "level": 478,
-      "temperature": 5.5,
-      "delta": 2
+      "level": 660,
+      "temperature": null,
+      "delta": 0
     }
   ],
   "Десна__Чернігів": [
@@ -2544,9 +2544,9 @@
     },
     {
       "date": "2026-03-31",
-      "level": 242,
-      "temperature": 4.6,
-      "delta": 2
+      "level": 235,
+      "temperature": null,
+      "delta": 0
     }
   ],
   "Рось__Фесюри": [
@@ -5355,6 +5355,30 @@
       "level": 728,
       "temperature": 4.8,
       "delta": -11
+    }
+  ],
+  "Івотка__Івот": [
+    {
+      "date": "2026-03-31",
+      "level": 326,
+      "temperature": 5.2,
+      "delta": -5
+    }
+  ],
+  "Убідь__Кудрівка": [
+    {
+      "date": "2026-03-31",
+      "level": 104,
+      "temperature": 8.3,
+      "delta": -5
+    }
+  ],
+  "Сейм__Мутин": [
+    {
+      "date": "2026-03-31",
+      "level": 720,
+      "temperature": null,
+      "delta": 0
     }
   ]
 }
