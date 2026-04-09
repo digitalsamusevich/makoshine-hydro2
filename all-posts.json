@@ -2,7 +2,7 @@
   "ok": true,
   "total_rivers": 63,
   "total_posts": 106,
-  "fetched_at": "2026-04-09T08:50:25.791Z",
+  "fetched_at": "2026-04-09T10:37:27.111Z",
   "rivers": {
     "Бистриця": [
       {
@@ -479,7 +479,7 @@
         "water_level_cm": -21,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 19,
+        "water_temperature_c": 1.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -580,7 +580,7 @@
           {
             "date": "2026-04-09",
             "level": -21,
-            "temperature": 19,
+            "temperature": 1.9,
             "delta": -1
           }
         ],
@@ -596,7 +596,7 @@
         "water_level_cm": 122,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 16,
+        "water_temperature_c": 1.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -697,7 +697,7 @@
           {
             "date": "2026-04-09",
             "level": 122,
-            "temperature": 16,
+            "temperature": 1.6,
             "delta": 0
           }
         ],
@@ -4070,7 +4070,7 @@
         "water_level_cm": 72,
         "delta_direction": "збільшився",
         "delta_24h_cm": 6,
-        "water_temperature_c": 16,
+        "water_temperature_c": 1.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -4171,7 +4171,7 @@
           {
             "date": "2026-04-09",
             "level": 72,
-            "temperature": 16,
+            "temperature": 1.6,
             "delta": 6
           }
         ],
@@ -9188,7 +9188,7 @@
         "water_level_cm": 28,
         "delta_direction": "збільшився",
         "delta_24h_cm": 1,
-        "water_temperature_c": 15,
+        "water_temperature_c": 1.5,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -9289,7 +9289,7 @@
           {
             "date": "2026-04-09",
             "level": 28,
-            "temperature": 15,
+            "temperature": 1.5,
             "delta": 1
           }
         ],
@@ -12095,7 +12095,7 @@
         "water_level_cm": 99,
         "delta_direction": "зменшився",
         "delta_24h_cm": -3,
-        "water_temperature_c": 9,
+        "water_temperature_c": 0.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -12196,7 +12196,7 @@
           {
             "date": "2026-04-09",
             "level": 99,
-            "temperature": 9,
+            "temperature": 0.9,
             "delta": -3
           }
         ],
