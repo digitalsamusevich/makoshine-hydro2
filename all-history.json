@@ -545,7 +545,7 @@
     {
       "date": "2026-04-10",
       "level": 119,
-      "temperature": 12,
+      "temperature": 1.2,
       "delta": -3
     }
   ],
@@ -765,7 +765,7 @@
     {
       "date": "2026-04-10",
       "level": 238,
-      "temperature": 4,
+      "temperature": 0.4,
       "delta": -2
     }
   ],
@@ -875,7 +875,7 @@
     {
       "date": "2026-04-10",
       "level": 180,
-      "temperature": 16,
+      "temperature": 1.6,
       "delta": -1
     }
   ],
@@ -2195,7 +2195,7 @@
     {
       "date": "2026-04-10",
       "level": -23,
-      "temperature": 5,
+      "temperature": 0.5,
       "delta": -2
     }
   ],
@@ -3514,9 +3514,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 283,
+      "level": 282,
       "temperature": 10,
-      "delta": 0
+      "delta": -1
     }
   ],
   "Сіверський Донець__Протопопівка": [
@@ -3625,7 +3625,7 @@
     {
       "date": "2026-04-10",
       "level": 530,
-      "temperature": 18,
+      "temperature": 11,
       "delta": -4
     }
   ],
@@ -7034,9 +7034,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 491,
+      "level": 489,
       "temperature": null,
-      "delta": -12
+      "delta": -2
     }
   ],
   "Прип’ять__Чорнобиль": [
@@ -8575,7 +8575,7 @@
     {
       "date": "2026-04-10",
       "level": 67,
-      "temperature": 16,
+      "temperature": 1.6,
       "delta": 1
     }
   ],
@@ -9125,7 +9125,7 @@
     {
       "date": "2026-04-10",
       "level": 28,
-      "temperature": 5,
+      "temperature": 0.5,
       "delta": 0
     }
   ],
@@ -10004,9 +10004,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 155,
-      "temperature": 7.1,
-      "delta": 1
+      "level": 157,
+      "temperature": 6.3,
+      "delta": 2
     }
   ],
   "Смотрич__Купин": [
@@ -10512,9 +10512,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 366,
-      "temperature": 8.5,
-      "delta": 33
+      "level": 346,
+      "temperature": 7.3,
+      "delta": -20
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -10622,9 +10622,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 220,
-      "temperature": 10,
-      "delta": -7
+      "level": 233,
+      "temperature": 8.6,
+      "delta": 13
     }
   ],
   "Південний Буг__Первомайськ": [
@@ -10732,9 +10732,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 336,
-      "temperature": 10,
-      "delta": -1
+      "level": 341,
+      "temperature": 9.5,
+      "delta": 5
     }
   ],
   "Гнилий Тікич__Лисянка": [
@@ -10842,9 +10842,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 334,
-      "temperature": 8.4,
-      "delta": -4
+      "level": 332,
+      "temperature": 7.4,
+      "delta": -2
     }
   ],
   "Велика Вись__Ямпіль": [
@@ -10952,9 +10952,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 371,
-      "temperature": 10,
-      "delta": -1
+      "level": 368,
+      "temperature": 9,
+      "delta": -3
     }
   ],
   "Інгул__Кропивницький": [
@@ -11172,9 +11172,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 72,
-      "temperature": 11,
-      "delta": 0
+      "level": 69,
+      "temperature": 9,
+      "delta": -3
     }
   ],
   "Рибник__Майдан": [
@@ -11393,7 +11393,7 @@
     {
       "date": "2026-04-10",
       "level": 67,
-      "temperature": 14,
+      "temperature": 1.4,
       "delta": -5
     }
   ],
@@ -11612,9 +11612,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 390,
-      "temperature": 10,
-      "delta": 6
+      "level": 384,
+      "temperature": 11,
+      "delta": -6
     }
   ],
   "Південний Буг__Прибужани": [
@@ -11722,9 +11722,9 @@
     },
     {
       "date": "2026-04-10",
-      "level": 500,
-      "temperature": 10,
-      "delta": -6
+      "level": 485,
+      "temperature": 9.1,
+      "delta": -15
     }
   ],
   "Ворскла__Полтава": [
