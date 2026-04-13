@@ -7803,7 +7803,7 @@
     {
       "date": "2026-04-13",
       "level": 389,
-      "temperature": 9.5,
+      "temperature": 9.2,
       "delta": 0
     }
   ],
@@ -8186,9 +8186,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 490,
+      "level": 488,
       "temperature": null,
-      "delta": 5
+      "delta": -2
     }
   ],
   "Прип’ять__Чорнобиль": [
@@ -9594,9 +9594,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 109,
+      "level": 106,
       "temperature": 12,
-      "delta": 8
+      "delta": -3
     }
   ],
   "Стрв’яж__Хирів": [
@@ -12222,9 +12222,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 366,
-      "temperature": 7.6,
-      "delta": -2
+      "level": 369,
+      "temperature": 8.1,
+      "delta": 3
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -12350,9 +12350,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 259,
-      "temperature": 9,
-      "delta": 7
+      "level": 253,
+      "temperature": 8.4,
+      "delta": -6
     }
   ],
   "Південний Буг__Первомайськ": [
@@ -12478,9 +12478,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 346,
-      "temperature": 8.5,
-      "delta": -1
+      "level": 350,
+      "temperature": 7.5,
+      "delta": 4
     }
   ],
   "Гнилий Тікич__Лисянка": [
@@ -12606,9 +12606,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 332,
-      "temperature": 7.2,
-      "delta": -1
+      "level": 333,
+      "temperature": 8.2,
+      "delta": 1
     }
   ],
   "Велика Вись__Ямпіль": [
@@ -12734,9 +12734,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 357,
-      "temperature": 7.8,
-      "delta": -7
+      "level": 353,
+      "temperature": 7.4,
+      "delta": -4
     }
   ],
   "Інгул__Кропивницький": [
@@ -12991,7 +12991,7 @@
     {
       "date": "2026-04-13",
       "level": 68,
-      "temperature": 8.8,
+      "temperature": 8.6,
       "delta": 0
     }
   ],
@@ -13502,9 +13502,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 380,
-      "temperature": 11,
-      "delta": 31
+      "level": 381,
+      "temperature": 10,
+      "delta": 1
     }
   ],
   "Південний Буг__Прибужани": [
@@ -13630,9 +13630,9 @@
     },
     {
       "date": "2026-04-13",
-      "level": 505,
-      "temperature": 10,
-      "delta": 14
+      "level": 506,
+      "temperature": 9.3,
+      "delta": 1
     }
   ],
   "Ворскла__Полтава": [
