@@ -6156,7 +6156,7 @@
       "date": "2026-04-15",
       "level": 231,
       "temperature": 6.3,
-      "delta": 2
+      "delta": -2
     }
   ],
   "Тетерів__Житомир": [
@@ -8954,9 +8954,9 @@
     },
     {
       "date": "2026-04-15",
-      "level": 487,
+      "level": 495,
       "temperature": null,
-      "delta": -1
+      "delta": 8
     }
   ],
   "Прип’ять__Чорнобиль": [
@@ -10495,8 +10495,8 @@
     {
       "date": "2026-04-15",
       "level": 102,
-      "temperature": 11,
-      "delta": -4
+      "temperature": 12,
+      "delta": 0
     }
   ],
   "Стрв’яж__Хирів": [
@@ -11615,7 +11615,7 @@
     {
       "date": "2026-04-15",
       "level": 25,
-      "temperature": 15,
+      "temperature": 1.5,
       "delta": -1
     }
   ],
@@ -13362,9 +13362,9 @@
     },
     {
       "date": "2026-04-15",
-      "level": 370,
-      "temperature": 7.5,
-      "delta": 1
+      "level": 337,
+      "temperature": 8.1,
+      "delta": -33
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -13782,8 +13782,8 @@
     },
     {
       "date": "2026-04-15",
-      "level": 334,
-      "temperature": 6.8,
+      "level": 335,
+      "temperature": 7.8,
       "delta": 1
     }
   ],
@@ -13922,9 +13922,9 @@
     },
     {
       "date": "2026-04-15",
-      "level": 346,
-      "temperature": 7.6,
-      "delta": -7
+      "level": 347,
+      "temperature": 9.4,
+      "delta": 1
     }
   ],
   "Інгул__Кропивницький": [
@@ -14203,8 +14203,8 @@
     {
       "date": "2026-04-15",
       "level": 69,
-      "temperature": 8.6,
-      "delta": 1
+      "temperature": 9.8,
+      "delta": 0
     }
   ],
   "Рибник__Майдан": [
