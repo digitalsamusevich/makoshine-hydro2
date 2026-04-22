@@ -2,7 +2,7 @@
   "ok": true,
   "total_rivers": 63,
   "total_posts": 106,
-  "fetched_at": "2026-04-22T08:29:43.644Z",
+  "fetched_at": "2026-04-22T09:56:53.959Z",
   "rivers": {
     "Бистриця": [
       {
@@ -791,7 +791,7 @@
         "water_level_cm": -22,
         "delta_direction": "зменшився",
         "delta_24h_cm": -2,
-        "water_temperature_c": 19,
+        "water_temperature_c": 1.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -970,7 +970,7 @@
           {
             "date": "2026-04-22",
             "level": -22,
-            "temperature": 19,
+            "temperature": 1.9,
             "delta": -2
           }
         ],
@@ -986,7 +986,7 @@
         "water_level_cm": 121,
         "delta_direction": "зменшився",
         "delta_24h_cm": -4,
-        "water_temperature_c": 18,
+        "water_temperature_c": 1.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -1165,7 +1165,7 @@
           {
             "date": "2026-04-22",
             "level": 121,
-            "temperature": 18,
+            "temperature": 1.8,
             "delta": -4
           }
         ],
@@ -15350,7 +15350,7 @@
         "water_level_cm": 20,
         "delta_direction": "зменшився",
         "delta_24h_cm": -2,
-        "water_temperature_c": 16,
+        "water_temperature_c": 1.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -15529,7 +15529,7 @@
           {
             "date": "2026-04-22",
             "level": 20,
-            "temperature": 16,
+            "temperature": 1.6,
             "delta": -2
           }
         ],
@@ -20207,7 +20207,7 @@
         "water_level_cm": 100,
         "delta_direction": "зменшився",
         "delta_24h_cm": -6,
-        "water_temperature_c": 19,
+        "water_temperature_c": 1.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -20386,7 +20386,7 @@
           {
             "date": "2026-04-22",
             "level": 100,
-            "temperature": 19,
+            "temperature": 1.9,
             "delta": -6
           }
         ],
