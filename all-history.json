@@ -935,7 +935,7 @@
     {
       "date": "2026-04-23",
       "level": 119,
-      "temperature": 18,
+      "temperature": 1.8,
       "delta": -2
     }
   ],
@@ -3567,7 +3567,7 @@
     {
       "date": "2026-04-23",
       "level": 97,
-      "temperature": 10,
+      "temperature": 1,
       "delta": -3
     }
   ],
@@ -3755,7 +3755,7 @@
     {
       "date": "2026-04-23",
       "level": -23,
-      "temperature": 18,
+      "temperature": 1.8,
       "delta": -1
     }
   ],
@@ -10898,7 +10898,7 @@
     },
     {
       "date": "2026-04-23",
-      "level": 322,
+      "level": 318,
       "temperature": 11,
       "delta": -4
     }
@@ -12026,9 +12026,9 @@
     },
     {
       "date": "2026-04-23",
-      "level": 481,
+      "level": 488,
       "temperature": null,
-      "delta": -7
+      "delta": 7
     }
   ],
   "Прип’ять__Чорнобиль": [
@@ -15599,7 +15599,7 @@
     {
       "date": "2026-04-23",
       "level": 20,
-      "temperature": 17,
+      "temperature": 1.7,
       "delta": 0
     }
   ],
@@ -17922,9 +17922,9 @@
     },
     {
       "date": "2026-04-23",
-      "level": 364,
-      "temperature": 9.4,
-      "delta": -14
+      "level": 365,
+      "temperature": 9.2,
+      "delta": 1
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -18110,9 +18110,9 @@
     },
     {
       "date": "2026-04-23",
-      "level": 222,
-      "temperature": 9.8,
-      "delta": 15
+      "level": 245,
+      "temperature": 10,
+      "delta": 23
     }
   ],
   "Південний Буг__Первомайськ": [
@@ -18486,9 +18486,9 @@
     },
     {
       "date": "2026-04-23",
-      "level": 344,
-      "temperature": 8.8,
-      "delta": 3
+      "level": 342,
+      "temperature": 9.4,
+      "delta": -2
     }
   ],
   "Велика Вись__Ямпіль": [
@@ -18674,9 +18674,9 @@
     },
     {
       "date": "2026-04-23",
-      "level": 325,
-      "temperature": 10,
-      "delta": -5
+      "level": 327,
+      "temperature": 9.7,
+      "delta": 2
     }
   ],
   "Інгул__Кропивницький": [
@@ -19052,7 +19052,7 @@
       "date": "2026-04-23",
       "level": 69,
       "temperature": 11,
-      "delta": 1
+      "delta": 0
     }
   ],
   "Рибник__Майдан": [
