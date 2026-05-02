@@ -2,7 +2,7 @@
   "ok": true,
   "total_rivers": 63,
   "total_posts": 106,
-  "fetched_at": "2026-05-02T08:21:12.480Z",
+  "fetched_at": "2026-05-02T09:37:50.358Z",
   "rivers": {
     "Бистриця": [
       {
@@ -20090,7 +20090,7 @@
         "water_level_cm": 19,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 20,
+        "water_temperature_c": 2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -20329,7 +20329,7 @@
           {
             "date": "2026-05-02",
             "level": 19,
-            "temperature": 20,
+            "temperature": 2,
             "delta": -1
           }
         ],
