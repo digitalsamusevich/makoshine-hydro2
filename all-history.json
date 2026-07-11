@@ -12417,7 +12417,7 @@
     {
       "date": "2026-07-11",
       "level": 90,
-      "temperature": 90,
+      "temperature": 9,
       "delta": -1
     }
   ],
@@ -13079,7 +13079,7 @@
     {
       "date": "2026-07-11",
       "level": -20,
-      "temperature": 92,
+      "temperature": 9.2,
       "delta": -3
     }
   ],
@@ -49488,9 +49488,9 @@
     },
     {
       "date": "2026-07-11",
-      "level": 84,
-      "temperature": 27,
-      "delta": -12
+      "level": 93,
+      "temperature": 26,
+      "delta": 9
     }
   ],
   "Стрв’яж__Хирів": [
@@ -58757,7 +58757,7 @@
     {
       "date": "2026-07-11",
       "level": 196,
-      "temperature": 84,
+      "temperature": 8.4,
       "delta": 5
     }
   ],
