@@ -1,12 +1,12 @@
 {
   "ok": true,
   "total_rivers": 63,
-  "total_posts": 109,
-  "fetched_at": "2026-08-13T07:04:36.556Z",
+  "total_posts": 108,
+  "fetched_at": "2026-08-13T08:02:26.764Z",
   "rivers": {
     "Бистриця": [
       {
-        "found_index": 125,
+        "found_index": 124,
         "post": "Озимина",
         "river": "Бистриця",
         "observed_at": "13.08.2026, 08:00",
@@ -879,7 +879,7 @@
     ],
     "Бистриця Надвірнянська": [
       {
-        "found_index": 144,
+        "found_index": 143,
         "post": "Пасічна",
         "river": "Бистриця Надвірнянська",
         "observed_at": "13.08.2026, 08:00",
@@ -1750,7 +1750,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9F%D0%B0%D1%81%D1%96%D1%87%D0%BD%D0%B0%22%2C%22data%22%3A%5B128%2C130%2C127%2C120%2C118%2C114%2C113%2C112%2C110%2C108%2C116%2C115%2C113%2C118%2C116%2C115%2C113%2C113%2C108%2C107%2C104%2C103%2C104%2C119%2C121%2C119%2C117%2C113%2C112%2C110%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9F%D0%B0%D1%81%D1%96%D1%87%D0%BD%D0%B0%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 176,
+        "found_index": 175,
         "post": "Черніїв",
         "river": "Бистриця Надвірнянська",
         "observed_at": "13.08.2026, 08:00",
@@ -2623,7 +2623,7 @@
     ],
     "Бистриця Солотвинська": [
       {
-        "found_index": 146,
+        "found_index": 145,
         "post": "Гута",
         "river": "Бистриця Солотвинська",
         "observed_at": "13.08.2026, 08:00",
@@ -6986,7 +6986,7 @@
     ],
     "Велика Вись": [
       {
-        "found_index": 171,
+        "found_index": 170,
         "post": "Ямпіль",
         "river": "Велика Вись",
         "observed_at": "13.08.2026, 08:00",
@@ -7859,7 +7859,7 @@
     ],
     "Верещиця": [
       {
-        "found_index": 124,
+        "found_index": 123,
         "post": "Комарно",
         "river": "Верещиця",
         "observed_at": "13.08.2026, 08:00",
@@ -8732,7 +8732,7 @@
     ],
     "Ворскла": [
       {
-        "found_index": 103,
+        "found_index": 102,
         "post": "Кобеляки",
         "river": "Ворскла",
         "observed_at": "13.08.2026, 08:00",
@@ -9605,7 +9605,7 @@
     ],
     "Гнилий Тікич": [
       {
-        "found_index": 170,
+        "found_index": 169,
         "post": "Лисянка",
         "river": "Гнилий Тікич",
         "observed_at": "13.08.2026, 08:00",
@@ -10478,7 +10478,7 @@
     ],
     "Горинь": [
       {
-        "found_index": 66,
+        "found_index": 65,
         "post": "Ямпіль",
         "river": "Горинь",
         "observed_at": "13.08.2026, 08:00",
@@ -11351,7 +11351,7 @@
     ],
     "Десна": [
       {
-        "found_index": 90,
+        "found_index": 89,
         "post": "Літки",
         "river": "Десна",
         "observed_at": "13.08.2026, 08:00",
@@ -12222,7 +12222,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9B%D1%96%D1%82%D0%BA%D0%B8%22%2C%22data%22%3A%5B90%2C90%2C89%2C89%2C89%2C90%2C90%2C91%2C91%2C91%2C91%2C91%2C92%2C92%2C92%2C92%2C92%2C92%2C92%2C91%2C90%2C89%2C88%2C86%2C84%2C84%2C82%2C80%2C78%2C76%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9B%D1%96%D1%82%D0%BA%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 87,
+        "found_index": 86,
         "post": "Макошине",
         "river": "Десна",
         "observed_at": "13.08.2026, 08:00",
@@ -13093,7 +13093,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9C%D0%B0%D0%BA%D0%BE%D1%88%D0%B8%D0%BD%D0%B5%22%2C%22data%22%3A%5B199%2C200%2C201%2C202%2C203%2C204%2C205%2C206%2C208%2C208%2C208%2C207%2C206%2C203%2C202%2C201%2C199%2C198%2C196%2C194%2C192%2C190%2C189%2C188%2C187%2C186%2C184%2C184%2C183%2C182%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9C%D0%B0%D0%BA%D0%BE%D1%88%D0%B8%D0%BD%D0%B5%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 89,
+        "found_index": 88,
         "post": "Морівськ",
         "river": "Десна",
         "observed_at": "13.08.2026, 08:00",
@@ -13964,7 +13964,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9C%D0%BE%D1%80%D1%96%D0%B2%D1%81%D1%8C%D0%BA%22%2C%22data%22%3A%5B125%2C125%2C125%2C125%2C125%2C125%2C126%2C127%2C128%2C128%2C128%2C128%2C129%2C129%2C129%2C128%2C127%2C126%2C125%2C124%2C123%2C122%2C120%2C119%2C117%2C116%2C114%2C112%2C111%2C110%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9C%D0%BE%D1%80%D1%96%D0%B2%D1%81%D1%8C%D0%BA%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 85,
+        "found_index": 84,
         "post": "Новгород Сіверський",
         "river": "Десна",
         "observed_at": "13.08.2026, 08:00",
@@ -14835,7 +14835,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%A1%D1%96%D0%B2%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%22%2C%22data%22%3A%5B205%2C208%2C210%2C213%2C216%2C219%2C221%2C222%2C221%2C220%2C217%2C215%2C212%2C208%2C204%2C200%2C197%2C193%2C189%2C185%2C182%2C182%2C182%2C182%2C182%2C182%2C182%2C182%2C181%2C180%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%A1%D1%96%D0%B2%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 86,
+        "found_index": 85,
         "post": "Розльоти",
         "river": "Десна",
         "observed_at": "13.08.2026, 08:00",
@@ -15706,7 +15706,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%A0%D0%BE%D0%B7%D0%BB%D1%8C%D0%BE%D1%82%D0%B8%22%2C%22data%22%3A%5B273%2C274%2C276%2C278%2C280%2C282%2C284%2C284%2C284%2C282%2C280%2C278%2C274%2C270%2C269%2C268%2C265%2C262%2C260%2C258%2C257%2C255%2C254%2C252%2C252%2C251%2C250%2C250%2C249%2C248%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D0%BE%D0%B7%D0%BB%D1%8C%D0%BE%D1%82%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 88,
+        "found_index": 87,
         "post": "Чернігів",
         "river": "Десна",
         "observed_at": "13.08.2026, 08:00",
@@ -16579,7 +16579,7 @@
     ],
     "Дніпро": [
       {
-        "found_index": 112,
+        "found_index": 111,
         "post": "Київ",
         "river": "Дніпро",
         "observed_at": "13.08.2026, 08:00",
@@ -18321,7 +18321,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9D%D0%B5%D0%B4%D0%B0%D0%BD%D1%87%D0%B8%D1%87%D1%96%22%2C%22data%22%3A%5B289%2C289%2C290%2C290%2C290%2C290%2C289%2C289%2C289%2C288%2C287%2C288%2C289%2C290%2C291%2C292%2C294%2C296%2C298%2C299%2C299%2C299%2C298%2C297%2C296%2C295%2C292%2C288%2C284%2C281%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9D%D0%B5%D0%B4%D0%B0%D0%BD%D1%87%D0%B8%D1%87%D1%96%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 110,
+        "found_index": 109,
         "post": "Херсон",
         "river": "Дніпро",
         "observed_at": "13.08.2026, 08:00",
@@ -19194,7 +19194,7 @@
     ],
     "Дністер": [
       {
-        "found_index": 117,
+        "found_index": 116,
         "post": "Галич",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -20065,7 +20065,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%93%D0%B0%D0%BB%D0%B8%D1%87%22%2C%22data%22%3A%5B103%2C132%2C128%2C125%2C117%2C114%2C112%2C111%2C105%2C102%2C100%2C100%2C99%2C98%2C96%2C94%2C91%2C90%2C89%2C89%2C89%2C88%2C88%2C85%2C85%2C87%2C86%2C83%2C81%2C81%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%93%D0%B0%D0%BB%D0%B8%D1%87%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 116,
+        "found_index": 115,
         "post": "Журавне",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -20936,7 +20936,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%22%2C%22data%22%3A%5B318%2C334%2C329%2C326%2C327%2C322%2C320%2C316%2C313%2C310%2C310%2C311%2C312%2C313%2C312%2C312%2C310%2C310%2C307%2C305%2C303%2C302%2C301%2C300%2C299%2C298%2C310%2C316%2C309%2C305%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 119,
+        "found_index": 118,
         "post": "Заліщики",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -21807,13 +21807,13 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%97%D0%B0%D0%BB%D1%96%D1%89%D0%B8%D0%BA%D0%B8%22%2C%22data%22%3A%5B238%2C238%2C240%2C262%2C257%2C252%2C248%2C245%2C244%2C244%2C242%2C236%2C234%2C234%2C234%2C234%2C231%2C230%2C230%2C228%2C227%2C223%2C223%2C222%2C223%2C222%2C222%2C226%2C230%2C228%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%97%D0%B0%D0%BB%D1%96%D1%89%D0%B8%D0%BA%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 121,
+        "found_index": 120,
         "post": "Маяки",
         "river": "Дністер",
-        "observed_at": "12.08.2026, 08:00",
-        "water_level_cm": 78,
-        "delta_direction": "зменшився",
-        "delta_24h_cm": -2,
+        "observed_at": "13.08.2026, 08:00",
+        "water_level_cm": 79,
+        "delta_direction": "збільшився",
+        "delta_24h_cm": 1,
         "water_temperature_c": 26,
         "history_points": [
           {
@@ -22670,15 +22670,15 @@
           },
           {
             "date": "2026-08-13",
-            "level": 78,
+            "level": 79,
             "temperature": 26,
-            "delta": -2
+            "delta": 1
           }
         ],
-        "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9C%D0%B0%D1%8F%D0%BA%D0%B8%22%2C%22data%22%3A%5B86%2C86%2C92%2C95%2C100%2C100%2C87%2C93%2C77%2C90%2C81%2C78%2C100%2C96%2C82%2C87%2C85%2C86%2C88%2C89%2C91%2C92%2C94%2C94%2C88%2C68%2C76%2C80%2C78%2C78%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9C%D0%B0%D1%8F%D0%BA%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
+        "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9C%D0%B0%D1%8F%D0%BA%D0%B8%22%2C%22data%22%3A%5B86%2C86%2C92%2C95%2C100%2C100%2C87%2C93%2C77%2C90%2C81%2C78%2C100%2C96%2C82%2C87%2C85%2C86%2C88%2C89%2C91%2C92%2C94%2C94%2C88%2C68%2C76%2C80%2C78%2C79%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9C%D0%B0%D1%8F%D0%BA%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 120,
+        "found_index": 119,
         "post": "Могилів Подільський",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -23549,7 +23549,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%96%D0%B2%20%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%22%2C%22data%22%3A%5B162%2C163%2C161%2C164%2C151%2C156%2C166%2C167%2C157%2C161%2C166%2C157%2C145%2C150%2C156%2C151%2C148%2C156%2C151%2C150%2C153%2C155%2C157%2C156%2C158%2C154%2C149%2C142%2C137%2C144%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%96%D0%B2%20%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 115,
+        "found_index": 114,
         "post": "Роздол",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -24420,7 +24420,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%A0%D0%BE%D0%B7%D0%B4%D0%BE%D0%BB%22%2C%22data%22%3A%5B96%2C102%2C98%2C96%2C100%2C96%2C90%2C88%2C86%2C84%2C84%2C88%2C88%2C92%2C90%2C88%2C86%2C84%2C82%2C82%2C80%2C78%2C80%2C80%2C82%2C86%2C108%2C100%2C92%2C90%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D0%BE%D0%B7%D0%B4%D0%BE%D0%BB%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 114,
+        "found_index": 113,
         "post": "Самбір",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -25291,7 +25291,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%A1%D0%B0%D0%BC%D0%B1%D1%96%D1%80%22%2C%22data%22%3A%5B166%2C162%2C168%2C162%2C162%2C160%2C160%2C158%2C157%2C157%2C162%2C170%2C163%2C163%2C163%2C160%2C158%2C158%2C155%2C155%2C153%2C152%2C152%2C157%2C160%2C179%2C168%2C163%2C160%2C158%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A1%D0%B0%D0%BC%D0%B1%D1%96%D1%80%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 113,
+        "found_index": 112,
         "post": "Стрілки",
         "river": "Дністер",
         "observed_at": "13.08.2026, 08:00",
@@ -29644,7 +29644,7 @@
     ],
     "Жванчик": [
       {
-        "found_index": 158,
+        "found_index": 157,
         "post": "Ластівці",
         "river": "Жванчик",
         "observed_at": "13.08.2026, 08:00",
@@ -30517,7 +30517,7 @@
     ],
     "Завадка": [
       {
-        "found_index": 175,
+        "found_index": 174,
         "post": "Риків",
         "river": "Завадка",
         "observed_at": "13.08.2026, 08:00",
@@ -31390,7 +31390,7 @@
     ],
     "Західний Буг": [
       {
-        "found_index": 59,
+        "found_index": 58,
         "post": "Литовеж",
         "river": "Західний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -32261,7 +32261,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9B%D0%B8%D1%82%D0%BE%D0%B2%D0%B5%D0%B6%22%2C%22data%22%3A%5B-30%2C-29%2C-31%2C-34%2C-22%2C-26%2C-30%2C-31%2C-15%2C-10%2C-9%2C-11%2C-12%2C-14%2C-16%2C-22%2C-25%2C-28%2C-27%2C-30%2C-32%2C-31%2C-32%2C-34%2C-33%2C-35%2C-36%2C-34%2C-35%2C-36%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9B%D0%B8%D1%82%D0%BE%D0%B2%D0%B5%D0%B6%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 76,
+        "found_index": 75,
         "post": "Сасів",
         "river": "Західний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -33134,7 +33134,7 @@
     ],
     "Інгул": [
       {
-        "found_index": 172,
+        "found_index": 171,
         "post": "Кропивницький",
         "river": "Інгул",
         "observed_at": "13.08.2026, 08:00",
@@ -34005,7 +34005,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9A%D1%80%D0%BE%D0%BF%D0%B8%D0%B2%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9%22%2C%22data%22%3A%5B319%2C308%2C308%2C308%2C309%2C312%2C318%2C316%2C314%2C313%2C313%2C313%2C307%2C307%2C307%2C328%2C309%2C307%2C307%2C306%2C306%2C308%2C309%2C309%2C310%2C309%2C311%2C310%2C314%2C311%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9A%D1%80%D0%BE%D0%BF%D0%B8%D0%B2%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 173,
+        "found_index": 172,
         "post": "Седнівка",
         "river": "Інгул",
         "observed_at": "13.08.2026, 08:00",
@@ -34878,7 +34878,7 @@
     ],
     "Інгулець": [
       {
-        "found_index": 108,
+        "found_index": 107,
         "post": "Калінінське",
         "river": "Інгулець",
         "observed_at": "13.08.2026, 08:00",
@@ -35749,7 +35749,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9A%D0%B0%D0%BB%D1%96%D0%BD%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B5%22%2C%22data%22%3A%5B122%2C117%2C116%2C113%2C114%2C117%2C117%2C110%2C111%2C105%2C110%2C105%2C124%2C124%2C117%2C112%2C112%2C111%2C106%2C103%2C103%2C101%2C105%2C110%2C102%2C99%2C96%2C105%2C106%2C92%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9A%D0%B0%D0%BB%D1%96%D0%BD%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B5%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 107,
+        "found_index": 106,
         "post": "Кривий Ріг",
         "river": "Інгулець",
         "observed_at": "13.08.2026, 08:00",
@@ -37495,7 +37495,7 @@
     ],
     "Калюс": [
       {
-        "found_index": 163,
+        "found_index": 162,
         "post": "Н.Ушиця",
         "river": "Калюс",
         "observed_at": "13.08.2026, 08:00",
@@ -38368,7 +38368,7 @@
     ],
     "Коропець": [
       {
-        "found_index": 118,
+        "found_index": 117,
         "post": "Коропець",
         "river": "Коропець",
         "observed_at": "13.08.2026, 08:00",
@@ -40114,7 +40114,7 @@
     ],
     "Лімниця": [
       {
-        "found_index": 140,
+        "found_index": 139,
         "post": "Осмолода",
         "river": "Лімниця",
         "observed_at": "13.08.2026, 08:00",
@@ -40987,7 +40987,7 @@
     ],
     "Лужанка": [
       {
-        "found_index": 137,
+        "found_index": 136,
         "post": "Гошів",
         "river": "Лужанка",
         "observed_at": "13.08.2026, 08:00",
@@ -41860,7 +41860,7 @@
     ],
     "Нічлава": [
       {
-        "found_index": 156,
+        "found_index": 155,
         "post": "Стрілківці",
         "river": "Нічлава",
         "observed_at": "13.08.2026, 08:00",
@@ -42733,7 +42733,7 @@
     ],
     "Орава": [
       {
-        "found_index": 133,
+        "found_index": 132,
         "post": "Святослав",
         "river": "Орава",
         "observed_at": "13.08.2026, 08:00",
@@ -43606,7 +43606,7 @@
     ],
     "Оріль": [
       {
-        "found_index": 104,
+        "found_index": 103,
         "post": "Царичанка",
         "river": "Оріль",
         "observed_at": "13.08.2026, 08:00",
@@ -44479,7 +44479,7 @@
     ],
     "Південний Буг": [
       {
-        "found_index": 177,
+        "found_index": 176,
         "post": "Олександрівка",
         "river": "Південний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -45350,7 +45350,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BA%D0%B0%22%2C%22data%22%3A%5B374%2C367%2C353%2C374%2C370%2C375%2C375%2C379%2C389%2C399%2C360%2C335%2C346%2C351%2C388%2C355%2C340%2C345%2C342%2C342%2C342%2C342%2C339%2C342%2C342%2C351%2C348%2C350%2C372%2C367%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BA%D0%B0%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 168,
+        "found_index": 167,
         "post": "Первомайськ",
         "river": "Південний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -46221,7 +46221,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D0%B0%D0%B9%D1%81%D1%8C%D0%BA%22%2C%22data%22%3A%5B319%2C314%2C313%2C313%2C300%2C309%2C318%2C313%2C310%2C312%2C311%2C314%2C311%2C311%2C313%2C313%2C314%2C315%2C315%2C311%2C310%2C314%2C314%2C313%2C315%2C313%2C312%2C310%2C310%2C298%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D0%B0%D0%B9%D1%81%D1%8C%D0%BA%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 167,
+        "found_index": 166,
         "post": "Підгір’я",
         "river": "Південний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -47092,7 +47092,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9F%D1%96%D0%B4%D0%B3%D1%96%D1%80%E2%80%99%D1%8F%22%2C%22data%22%3A%5B208%2C208%2C207%2C207%2C206%2C207%2C207%2C207%2C206%2C216%2C209%2C206%2C204%2C205%2C206%2C205%2C204%2C204%2C204%2C205%2C204%2C204%2C204%2C205%2C201%2C200%2C199%2C198%2C198%2C197%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9F%D1%96%D0%B4%D0%B3%D1%96%D1%80%E2%80%99%D1%8F%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 178,
+        "found_index": 177,
         "post": "Прибужани",
         "river": "Південний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -47963,7 +47963,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9F%D1%80%D0%B8%D0%B1%D1%83%D0%B6%D0%B0%D0%BD%D0%B8%22%2C%22data%22%3A%5B500%2C494%2C495%2C493%2C500%2C498%2C490%2C493%2C481%2C470%2C481%2C472%2C503%2C505%2C481%2C498%2C491%2C493%2C489%2C485%2C483%2C482%2C481%2C482%2C475%2C462%2C461%2C479%2C480%2C471%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9F%D1%80%D0%B8%D0%B1%D1%83%D0%B6%D0%B0%D0%BD%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 166,
+        "found_index": 165,
         "post": "Тростянчик",
         "river": "Південний Буг",
         "observed_at": "13.08.2026, 08:00",
@@ -48836,7 +48836,7 @@
     ],
     "Полтва": [
       {
-        "found_index": 78,
+        "found_index": 77,
         "post": "Буськ",
         "river": "Полтва",
         "observed_at": "13.08.2026, 08:00",
@@ -49709,67 +49709,6 @@
     ],
     "Прип’ять": [
       {
-        "found_index": 58,
-        "post": "Берегова насосна станція",
-        "river": "Прип’ять",
-        "observed_at": "13.08.2026, 08:00",
-        "water_level_cm": 273,
-        "delta_direction": "зменшився",
-        "delta_24h_cm": -2,
-        "water_temperature_c": null,
-        "history_points": [
-          {
-            "date": "2026-07-30",
-            "level": 287,
-            "temperature": null,
-            "delta": 0
-          },
-          {
-            "date": "2026-07-31",
-            "level": 287,
-            "temperature": null,
-            "delta": 0
-          },
-          {
-            "date": "2026-08-08",
-            "level": 281,
-            "temperature": null,
-            "delta": -3
-          },
-          {
-            "date": "2026-08-09",
-            "level": 276,
-            "temperature": null,
-            "delta": -5
-          },
-          {
-            "date": "2026-08-10",
-            "level": 281,
-            "temperature": null,
-            "delta": 5
-          },
-          {
-            "date": "2026-08-11",
-            "level": 281,
-            "temperature": null,
-            "delta": 0
-          },
-          {
-            "date": "2026-08-12",
-            "level": 275,
-            "temperature": null,
-            "delta": -6
-          },
-          {
-            "date": "2026-08-13",
-            "level": 273,
-            "temperature": null,
-            "delta": -2
-          }
-        ],
-        "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2230.07%22%2C%2231.07%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%91%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%20%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BD%D0%B0%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F%22%2C%22data%22%3A%5B287%2C287%2C281%2C276%2C281%2C281%2C275%2C273%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%91%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%20%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BD%D0%B0%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
-      },
-      {
         "found_index": 57,
         "post": "Любязь",
         "river": "Прип’ять",
@@ -50228,7 +50167,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2209.05%22%2C%2210.05%22%2C%2221.05%22%2C%2222.05%22%2C%2223.05%22%2C%2224.05%22%2C%2225.05%22%2C%2226.05%22%2C%2205.06%22%2C%2206.06%22%2C%2213.06%22%2C%2214.06%22%2C%2217.06%22%2C%2218.06%22%2C%2227.06%22%2C%2228.06%22%2C%2208.07%22%2C%2209.07%22%2C%2214.07%22%2C%2215.07%22%2C%2224.07%22%2C%2225.07%22%2C%2230.07%22%2C%2231.07%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%A0%D1%96%D1%87%D0%B8%D1%86%D1%8F%22%2C%22data%22%3A%5B238%2C238%2C237%2C237%2C234%2C234%2C232%2C232%2C228%2C228%2C224%2C224%2C226%2C226%2C220%2C220%2C220%2C220%2C218%2C218%2C214%2C214%2C212%2C212%2C206%2C207%2C207%2C207%2C207%2C206%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D1%87%D0%B8%D1%86%D1%8F%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 111,
+        "found_index": 110,
         "post": "Чорнобиль",
         "river": "Прип’ять",
         "observed_at": "13.08.2026, 08:00",
@@ -51974,7 +51913,7 @@
     ],
     "Псел": [
       {
-        "found_index": 100,
+        "found_index": 99,
         "post": "Гадяч",
         "river": "Псел",
         "observed_at": "13.08.2026, 08:00",
@@ -52845,7 +52784,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%93%D0%B0%D0%B4%D1%8F%D1%87%22%2C%22data%22%3A%5B334%2C335%2C337%2C339%2C339%2C339%2C339%2C340%2C340%2C340%2C341%2C341%2C342%2C343%2C343%2C344%2C343%2C343%2C342%2C333%2C328%2C332%2C332%2C329%2C328%2C328%2C327%2C327%2C334%2C335%5D%2C%22borderColor%22%3A%22rgb(37%2C99%2C235)%22%2C%22backgroundColor%22%3A%22rgba(37%2C99%2C235%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(37%2C99%2C235)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%93%D0%B0%D0%B4%D1%8F%D1%87%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 101,
+        "found_index": 100,
         "post": "Запсілля",
         "river": "Псел",
         "observed_at": "13.08.2026, 08:00",
@@ -53716,7 +53655,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%97%D0%B0%D0%BF%D1%81%D1%96%D0%BB%D0%BB%D1%8F%22%2C%22data%22%3A%5B160%2C155%2C157%2C157%2C158%2C161%2C160%2C156%2C154%2C150%2C150%2C142%2C146%2C148%2C148%2C157%2C160%2C158%2C162%2C157%2C154%2C156%2C156%2C158%2C161%2C161%2C156%2C152%2C148%2C146%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%97%D0%B0%D0%BF%D1%81%D1%96%D0%BB%D0%BB%D1%8F%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 99,
+        "found_index": 98,
         "post": "Суми",
         "river": "Псел",
         "observed_at": "13.08.2026, 08:00",
@@ -55462,7 +55401,7 @@
     ],
     "Рибник": [
       {
-        "found_index": 174,
+        "found_index": 173,
         "post": "Майдан",
         "river": "Рибник",
         "observed_at": "13.08.2026, 08:00",
@@ -57208,7 +57147,7 @@
     ],
     "Рось": [
       {
-        "found_index": 96,
+        "found_index": 95,
         "post": "Корсунь-Шевченківський",
         "river": "Рось",
         "observed_at": "13.08.2026, 08:00",
@@ -58079,7 +58018,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9A%D0%BE%D1%80%D1%81%D1%83%D0%BD%D1%8C-%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%22%2C%22data%22%3A%5B191%2C191%2C191%2C191%2C191%2C191%2C192%2C192%2C192%2C192%2C192%2C192%2C193%2C193%2C192%2C193%2C192%2C192%2C192%2C192%2C192%2C193%2C193%2C193%2C193%2C179%2C179%2C179%2C179%2C179%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9A%D0%BE%D1%80%D1%81%D1%83%D0%BD%D1%8C-%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 95,
+        "found_index": 94,
         "post": "Фесюри",
         "river": "Рось",
         "observed_at": "13.08.2026, 08:00",
@@ -58952,7 +58891,7 @@
     ],
     "Самара": [
       {
-        "found_index": 106,
+        "found_index": 105,
         "post": "Кочеріжки",
         "river": "Самара",
         "observed_at": "13.08.2026, 08:00",
@@ -59823,7 +59762,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9A%D0%BE%D1%87%D0%B5%D1%80%D1%96%D0%B6%D0%BA%D0%B8%22%2C%22data%22%3A%5B213%2C213%2C212%2C210%2C209%2C209%2C208%2C208%2C207%2C207%2C206%2C206%2C206%2C205%2C205%2C205%2C205%2C204%2C204%2C203%2C203%2C202%2C202%2C201%2C201%2C201%2C199%2C198%2C197%2C196%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9A%D0%BE%D1%87%D0%B5%D1%80%D1%96%D0%B6%D0%BA%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 105,
+        "found_index": 104,
         "post": "Павлоград",
         "river": "Самара",
         "observed_at": "13.08.2026, 08:00",
@@ -60696,7 +60635,7 @@
     ],
     "Свиж": [
       {
-        "found_index": 139,
+        "found_index": 138,
         "post": "Букачівці",
         "river": "Свиж",
         "observed_at": "13.08.2026, 08:00",
@@ -61569,7 +61508,7 @@
     ],
     "Свиня": [
       {
-        "found_index": 81,
+        "found_index": 80,
         "post": "Жовква",
         "river": "Свиня",
         "observed_at": "13.08.2026, 08:00",
@@ -62442,7 +62381,7 @@
     ],
     "Свіча": [
       {
-        "found_index": 136,
+        "found_index": 135,
         "post": "Зарічне",
         "river": "Свіча",
         "observed_at": "13.08.2026, 08:00",
@@ -69262,7 +69201,7 @@
     ],
     "Славська": [
       {
-        "found_index": 134,
+        "found_index": 133,
         "post": "Славське",
         "river": "Славська",
         "observed_at": "13.08.2026, 08:00",
@@ -70135,7 +70074,7 @@
     ],
     "Случ": [
       {
-        "found_index": 70,
+        "found_index": 69,
         "post": "Громада",
         "river": "Случ",
         "observed_at": "13.08.2026, 08:00",
@@ -71008,7 +70947,7 @@
     ],
     "Смотрич": [
       {
-        "found_index": 161,
+        "found_index": 160,
         "post": "Купин",
         "river": "Смотрич",
         "observed_at": "13.08.2026, 08:00",
@@ -72754,7 +72693,7 @@
     ],
     "Стир": [
       {
-        "found_index": 62,
+        "found_index": 61,
         "post": "Щуровичі",
         "river": "Стир",
         "observed_at": "13.08.2026, 08:00",
@@ -73627,7 +73566,7 @@
     ],
     "Стрв’яж": [
       {
-        "found_index": 123,
+        "found_index": 122,
         "post": "Луки",
         "river": "Стрв’яж",
         "observed_at": "13.08.2026, 08:00",
@@ -74498,7 +74437,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%9B%D1%83%D0%BA%D0%B8%22%2C%22data%22%3A%5B268%2C271%2C293%2C299%2C299%2C261%2C257%2C253%2C253%2C251%2C251%2C253%2C261%2C255%2C255%2C265%2C257%2C253%2C253%2C251%2C248%2C246%2C245%2C245%2C253%2C277%2C292%2C273%2C265%2C260%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%9B%D1%83%D0%BA%D0%B8%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 122,
+        "found_index": 121,
         "post": "Хирів",
         "river": "Стрв’яж",
         "observed_at": "12.08.2026, 08:00",
@@ -75371,7 +75310,7 @@
     ],
     "Стрий": [
       {
-        "found_index": 128,
+        "found_index": 127,
         "post": "Матків",
         "river": "Стрий",
         "observed_at": "13.08.2026, 08:00",
@@ -77117,7 +77056,7 @@
     ],
     "Тетерів": [
       {
-        "found_index": 84,
+        "found_index": 83,
         "post": "Житомир",
         "river": "Тетерів",
         "observed_at": "13.08.2026, 08:00",
@@ -77988,7 +77927,7 @@
         "chart_url": "https://quickchart.io/chart?width=900&height=420&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2215.07%22%2C%2216.07%22%2C%2217.07%22%2C%2218.07%22%2C%2219.07%22%2C%2220.07%22%2C%2221.07%22%2C%2222.07%22%2C%2223.07%22%2C%2224.07%22%2C%2225.07%22%2C%2226.07%22%2C%2227.07%22%2C%2228.07%22%2C%2229.07%22%2C%2230.07%22%2C%2231.07%22%2C%2201.08%22%2C%2202.08%22%2C%2203.08%22%2C%2204.08%22%2C%2205.08%22%2C%2206.08%22%2C%2207.08%22%2C%2208.08%22%2C%2209.08%22%2C%2210.08%22%2C%2211.08%22%2C%2212.08%22%2C%2213.08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%22%2C%22data%22%3A%5B49%2C48%2C50%2C50%2C49%2C49%2C49%2C49%2C48%2C48%2C48%2C45%2C45%2C43%2C45%2C40%2C40%2C37%2C37%2C36%2C35%2C35%2C33%2C32%2C32%2C54%2C45%2C36%2C35%2C35%5D%2C%22borderColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22backgroundColor%22%3A%22rgba(22%2C163%2C74%2C0.18)%22%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%2C%22borderWidth%22%3A3%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A5%2C%22pointBackgroundColor%22%3A%22rgb(22%2C163%2C74)%22%2C%22pointBorderColor%22%3A%22%23ffffff%22%2C%22pointBorderWidth%22%3A2%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A10%2C%22right%22%3A18%2C%22bottom%22%3A10%2C%22left%22%3A10%7D%7D%2C%22plugins%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%20%E2%80%94%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%BE%D0%B4%D0%B8%22%2C%22font%22%3A%7B%22size%22%3A18%2C%22family%22%3A%22sans-serif%22%7D%2C%22color%22%3A%22%231f2937%22%2C%22padding%22%3A%7B%22bottom%22%3A12%7D%7D%2C%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.04)%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236b7280%22%2C%22font%22%3A%7B%22size%22%3A11%7D%2C%22callback%22%3A%22function(v)%7B%20return%20v%2B%5C%22%20%D1%81%D0%BC%5C%22%3B%20%7D%22%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%8C%2C%20%D1%81%D0%BC%22%2C%22color%22%3A%22%23374151%22%2C%22font%22%3A%7B%22size%22%3A12%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba(0%2C0%2C0%2C0.06)%22%7D%7D%7D%7D%2C%22plugins%22%3A%5B%7B%22id%22%3A%22lastValueLabel%22%7D%5D%7D"
       },
       {
-        "found_index": 109,
+        "found_index": 108,
         "post": "Іванків",
         "river": "Тетерів",
         "observed_at": "13.08.2026, 08:00",
@@ -84089,7 +84028,7 @@
     ],
     "Тисмениця": [
       {
-        "found_index": 126,
+        "found_index": 125,
         "post": "Дрогобич",
         "river": "Тисмениця",
         "observed_at": "13.08.2026, 08:00",
@@ -88452,7 +88391,7 @@
     ],
     "Ушиця": [
       {
-        "found_index": 162,
+        "found_index": 161,
         "post": "Тимків",
         "river": "Ушиця",
         "observed_at": "13.08.2026, 08:00",
