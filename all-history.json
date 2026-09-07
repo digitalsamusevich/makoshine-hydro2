@@ -5045,7 +5045,7 @@
     {
       "date": "2026-09-07",
       "level": 95,
-      "temperature": 98,
+      "temperature": 9.8,
       "delta": -2
     }
   ],
@@ -7919,7 +7919,7 @@
     {
       "date": "2026-09-07",
       "level": 173,
-      "temperature": 96,
+      "temperature": 9.6,
       "delta": 1
     }
   ],
@@ -19023,7 +19023,7 @@
     {
       "date": "2026-09-07",
       "level": 81,
-      "temperature": 79,
+      "temperature": 7.9,
       "delta": -1
     }
   ],
@@ -20033,7 +20033,7 @@
     {
       "date": "2026-09-07",
       "level": -36,
-      "temperature": 87,
+      "temperature": 8.7,
       "delta": 0
     }
   ],
@@ -42253,7 +42253,7 @@
     {
       "date": "2026-09-07",
       "level": 200,
-      "temperature": 96,
+      "temperature": 9.6,
       "delta": 0
     }
   ],
@@ -58412,9 +58412,9 @@
     },
     {
       "date": "2026-09-07",
-      "level": 172,
-      "temperature": 19,
-      "delta": 0
+      "level": 171,
+      "temperature": 18,
+      "delta": -1
     }
   ],
   "Самара__Павлоград": [
@@ -64472,9 +64472,9 @@
     },
     {
       "date": "2026-09-07",
-      "level": 471,
+      "level": 461,
       "temperature": null,
-      "delta": 0
+      "delta": -10
     }
   ],
   "Прип’ять__Чорнобиль": [
@@ -75582,9 +75582,9 @@
     },
     {
       "date": "2026-09-07",
-      "level": 90,
-      "temperature": 24,
-      "delta": -2
+      "level": 60,
+      "temperature": 23,
+      "delta": -30
     }
   ],
   "Стрв’яж__Хирів": [
@@ -81643,7 +81643,7 @@
     {
       "date": "2026-09-07",
       "level": 103,
-      "temperature": 94,
+      "temperature": 9.4,
       "delta": 0
     }
   ],
@@ -98881,8 +98881,8 @@
     {
       "date": "2026-09-07",
       "level": 322,
-      "temperature": 17,
-      "delta": -1
+      "temperature": 16,
+      "delta": 0
     }
   ],
   "Велика Вись__Ямпіль": [
@@ -99890,9 +99890,9 @@
     },
     {
       "date": "2026-09-07",
-      "level": 245,
+      "level": 246,
       "temperature": 17,
-      "delta": -6
+      "delta": 1
     }
   ],
   "Інгул__Кропивницький": [
@@ -103931,7 +103931,7 @@
     {
       "date": "2026-09-07",
       "level": 58,
-      "temperature": 80,
+      "temperature": 8,
       "delta": 0
     }
   ],
