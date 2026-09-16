@@ -1055,6 +1055,12 @@
       "level": 265,
       "temperature": 15,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 265,
+      "temperature": 15,
+      "delta": 0
     }
   ],
   "Прут__Чернівці": [
@@ -2110,6 +2116,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -29,
+      "temperature": 16,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": -29,
       "temperature": 16,
       "delta": 1
@@ -3171,6 +3183,12 @@
       "level": 14,
       "temperature": 12,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 14,
+      "temperature": 12,
+      "delta": -1
     }
   ],
   "Черемош__Кути": [
@@ -4226,6 +4244,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 235,
+      "temperature": 15,
+      "delta": -3
+    },
+    {
+      "date": "2026-09-16",
       "level": 235,
       "temperature": 15,
       "delta": -3
@@ -5287,6 +5311,12 @@
       "level": 93,
       "temperature": 12,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 93,
+      "temperature": 12,
+      "delta": -1
     }
   ],
   "Чорний Черемош__Верховина": [
@@ -6342,6 +6372,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 285,
+      "temperature": 12,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 285,
       "temperature": 12,
       "delta": 0
@@ -7403,6 +7439,12 @@
       "level": 222,
       "temperature": 12,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 222,
+      "temperature": 12,
+      "delta": -1
     }
   ],
   "Серет__Долішній Шепіт": [
@@ -8302,6 +8344,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 172,
+      "temperature": 10,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 172,
       "temperature": 10,
       "delta": 0
@@ -9363,6 +9411,12 @@
       "level": -22,
       "temperature": 23,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": -22,
+      "temperature": 23,
+      "delta": 0
     }
   ],
   "Дунай__Ізмаїл": [
@@ -10418,6 +10472,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 13,
+      "temperature": 23,
+      "delta": -6
+    },
+    {
+      "date": "2026-09-16",
       "level": 13,
       "temperature": 23,
       "delta": -6
@@ -11479,6 +11539,12 @@
       "level": 17,
       "temperature": 23,
       "delta": -9
+    },
+    {
+      "date": "2026-09-16",
+      "level": 17,
+      "temperature": 23,
+      "delta": -9
     }
   ],
   "Дунай__Вилкове": [
@@ -12528,6 +12594,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 61,
+      "temperature": 23,
+      "delta": -9
+    },
+    {
+      "date": "2026-09-16",
       "level": 61,
       "temperature": 23,
       "delta": -9
@@ -13589,6 +13661,12 @@
       "level": 103,
       "temperature": 13,
       "delta": -2
+    },
+    {
+      "date": "2026-09-16",
+      "level": 103,
+      "temperature": 13,
+      "delta": -2
     }
   ],
   "Тиса__Ділове": [
@@ -14644,6 +14722,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 6,
+      "temperature": 13,
+      "delta": -2
+    },
+    {
+      "date": "2026-09-16",
       "level": 6,
       "temperature": 13,
       "delta": -2
@@ -15705,6 +15789,12 @@
       "level": -44,
       "temperature": 15,
       "delta": -4
+    },
+    {
+      "date": "2026-09-16",
+      "level": -44,
+      "temperature": 15,
+      "delta": -4
     }
   ],
   "Тиса__Тячів": [
@@ -16760,6 +16850,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -88,
+      "temperature": 15,
+      "delta": -4
+    },
+    {
+      "date": "2026-09-16",
       "level": -88,
       "temperature": 15,
       "delta": -4
@@ -17821,6 +17917,12 @@
       "level": 158,
       "temperature": 11,
       "delta": -2
+    },
+    {
+      "date": "2026-09-16",
+      "level": 158,
+      "temperature": 11,
+      "delta": -2
     }
   ],
   "Тиса__Вилок": [
@@ -18876,6 +18978,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -303,
+      "temperature": 18,
+      "delta": 2
+    },
+    {
+      "date": "2026-09-16",
       "level": -303,
       "temperature": 18,
       "delta": 2
@@ -19937,6 +20045,12 @@
       "level": 80,
       "temperature": 11,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 80,
+      "temperature": 11,
+      "delta": -1
     }
   ],
   "Біла Тиса__Луги": [
@@ -20992,6 +21106,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -36,
+      "temperature": 10,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": -36,
       "temperature": 10,
       "delta": 0
@@ -22053,6 +22173,12 @@
       "level": -156,
       "temperature": 14,
       "delta": -3
+    },
+    {
+      "date": "2026-09-16",
+      "level": -156,
+      "temperature": 14,
+      "delta": -3
     }
   ],
   "Боржава__Довге": [
@@ -23108,6 +23234,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 89,
+      "temperature": 14,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 89,
       "temperature": 14,
       "delta": -1
@@ -24169,6 +24301,12 @@
       "level": 89,
       "temperature": 17,
       "delta": -11
+    },
+    {
+      "date": "2026-09-16",
+      "level": 89,
+      "temperature": 17,
+      "delta": -11
     }
   ],
   "Іршава__Іршава": [
@@ -25224,6 +25362,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -32,
+      "temperature": 10,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": -32,
       "temperature": 10,
       "delta": 0
@@ -26285,6 +26429,12 @@
       "level": 193,
       "temperature": 16,
       "delta": 1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 193,
+      "temperature": 16,
+      "delta": 1
     }
   ],
   "Тиса__Чоп": [
@@ -27340,6 +27490,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 217,
+      "temperature": 16,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": 217,
       "temperature": 16,
       "delta": 1
@@ -28401,6 +28557,12 @@
       "level": 96,
       "temperature": 16,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 96,
+      "temperature": 16,
+      "delta": 0
     }
   ],
   "Уж (Закарпатський)__Ужгород": [
@@ -29456,6 +29618,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -211,
+      "temperature": 17,
+      "delta": -3
+    },
+    {
+      "date": "2026-09-16",
       "level": -211,
       "temperature": 17,
       "delta": -3
@@ -30517,6 +30685,12 @@
       "level": 95,
       "temperature": 13,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 95,
+      "temperature": 13,
+      "delta": 0
     }
   ],
   "Тур’я__Сімер": [
@@ -31572,6 +31746,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -16,
+      "temperature": 15,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": -16,
       "temperature": 15,
       "delta": -1
@@ -32633,6 +32813,12 @@
       "level": 206,
       "temperature": 19,
       "delta": 4
+    },
+    {
+      "date": "2026-09-16",
+      "level": 206,
+      "temperature": 19,
+      "delta": 4
     }
   ],
   "Сіверський Донець__Зміїв": [
@@ -33688,6 +33874,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 200,
+      "temperature": 19,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": 200,
       "temperature": 19,
       "delta": 1
@@ -34749,6 +34941,12 @@
       "level": 317,
       "temperature": 19,
       "delta": 1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 317,
+      "temperature": 19,
+      "delta": 1
     }
   ],
   "Сіверський Донець__Ізюм": [
@@ -35804,6 +36002,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 185,
+      "temperature": 19,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 185,
       "temperature": 19,
       "delta": 0
@@ -36865,6 +37069,12 @@
       "level": 244,
       "temperature": 19,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 244,
+      "temperature": 19,
+      "delta": -1
     }
   ],
   "Дніпро__Неданчичі": [
@@ -37920,6 +38130,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 254,
+      "temperature": 16,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 254,
       "temperature": 16,
       "delta": 0
@@ -38981,6 +39197,12 @@
       "level": 92,
       "temperature": 13,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 92,
+      "temperature": 13,
+      "delta": 0
     }
   ],
   "Західний Буг__Литовеж": [
@@ -40036,6 +40258,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": -44,
+      "temperature": 16,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": -44,
       "temperature": 16,
       "delta": 1
@@ -41097,6 +41325,12 @@
       "level": 72,
       "temperature": 14,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 72,
+      "temperature": 14,
+      "delta": 0
     }
   ],
   "Горинь__Ямпіль": [
@@ -42152,6 +42386,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 282,
+      "temperature": 15,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 282,
       "temperature": 15,
       "delta": -1
@@ -43213,6 +43453,12 @@
       "level": 9,
       "temperature": 16,
       "delta": 1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 9,
+      "temperature": 16,
+      "delta": 1
     }
   ],
   "Західний Буг__Сасів": [
@@ -44268,6 +44514,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 201,
+      "temperature": 8.6,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 201,
       "temperature": 8.6,
       "delta": 0
@@ -45329,6 +45581,12 @@
       "level": 133,
       "temperature": 16,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 133,
+      "temperature": 16,
+      "delta": 0
     }
   ],
   "Свиня__Жовква": [
@@ -46384,6 +46642,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 216,
+      "temperature": 13,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 216,
       "temperature": 13,
       "delta": -1
@@ -47445,6 +47709,12 @@
       "level": 33,
       "temperature": 14,
       "delta": -2
+    },
+    {
+      "date": "2026-09-16",
+      "level": 33,
+      "temperature": 14,
+      "delta": -2
     }
   ],
   "Десна__Новгород Сіверський": [
@@ -48500,6 +48770,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 164,
+      "temperature": 18,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 164,
       "temperature": 18,
       "delta": 0
@@ -49561,6 +49837,12 @@
       "level": 231,
       "temperature": 17,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 231,
+      "temperature": 17,
+      "delta": 0
     }
   ],
   "Десна__Макошине": [
@@ -50616,6 +50898,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 159,
+      "temperature": 18,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 159,
       "temperature": 18,
       "delta": 0
@@ -51677,6 +51965,12 @@
       "level": 104,
       "temperature": 18,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 104,
+      "temperature": 18,
+      "delta": -1
     }
   ],
   "Десна__Морівськ": [
@@ -52732,6 +53026,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 88,
+      "temperature": 17,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 88,
       "temperature": 17,
       "delta": 0
@@ -53793,6 +54093,12 @@
       "level": 55,
       "temperature": 17,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 55,
+      "temperature": 17,
+      "delta": 0
     }
   ],
   "Рось__Фесюри": [
@@ -54848,6 +55154,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 157,
+      "temperature": 15,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 157,
       "temperature": 15,
       "delta": 0
@@ -55909,6 +56221,12 @@
       "level": 182,
       "temperature": 17,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 182,
+      "temperature": 17,
+      "delta": 0
     }
   ],
   "Псел__Суми": [
@@ -56964,6 +57282,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 184,
+      "temperature": 14,
+      "delta": 4
+    },
+    {
+      "date": "2026-09-16",
       "level": 184,
       "temperature": 14,
       "delta": 4
@@ -58025,6 +58349,12 @@
       "level": 322,
       "temperature": 17,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 322,
+      "temperature": 17,
+      "delta": 0
     }
   ],
   "Псел__Запсілля": [
@@ -59080,6 +59410,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 145,
+      "temperature": 19,
+      "delta": 3
+    },
+    {
+      "date": "2026-09-16",
       "level": 145,
       "temperature": 19,
       "delta": 3
@@ -60141,6 +60477,12 @@
       "level": 113,
       "temperature": 15,
       "delta": 1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 113,
+      "temperature": 15,
+      "delta": 1
     }
   ],
   "Оріль__Царичанка": [
@@ -61196,6 +61538,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 166,
+      "temperature": 16,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 166,
       "temperature": 16,
       "delta": -1
@@ -62257,6 +62605,12 @@
       "level": 105,
       "temperature": 18,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 105,
+      "temperature": 18,
+      "delta": 0
     }
   ],
   "Самара__Кочеріжки": [
@@ -63312,6 +63666,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 167,
+      "temperature": 19,
+      "delta": -2
+    },
+    {
+      "date": "2026-09-16",
       "level": 167,
       "temperature": 19,
       "delta": -2
@@ -64373,6 +64733,12 @@
       "level": 364,
       "temperature": 21,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 364,
+      "temperature": 21,
+      "delta": 0
     }
   ],
   "Інгулець__Калінінське": [
@@ -65428,6 +65794,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 105,
+      "temperature": 18,
+      "delta": 6
+    },
+    {
+      "date": "2026-09-16",
       "level": 105,
       "temperature": 18,
       "delta": 6
@@ -66489,6 +66861,12 @@
       "level": 56,
       "temperature": 15,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 56,
+      "temperature": 15,
+      "delta": 0
     }
   ],
   "Дніпро__Херсон": [
@@ -67544,6 +67922,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 466,
+      "temperature": null,
+      "delta": 15
+    },
+    {
+      "date": "2026-09-16",
       "level": 466,
       "temperature": null,
       "delta": 15
@@ -68605,6 +68989,12 @@
       "level": 259,
       "temperature": 18,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 259,
+      "temperature": 18,
+      "delta": 0
     }
   ],
   "Дніпро__Київ": [
@@ -69660,6 +70050,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 452,
+      "temperature": 19,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": 452,
       "temperature": 19,
       "delta": 1
@@ -70721,6 +71117,12 @@
       "level": 44,
       "temperature": 13,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 44,
+      "temperature": 13,
+      "delta": -1
     }
   ],
   "Дністер__Самбір": [
@@ -71776,6 +72178,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 152,
+      "temperature": 16,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 152,
       "temperature": 16,
       "delta": 0
@@ -72837,6 +73245,12 @@
       "level": 82,
       "temperature": 15,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 82,
+      "temperature": 15,
+      "delta": 0
     }
   ],
   "Дністер__Журавне": [
@@ -73892,6 +74306,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 294,
+      "temperature": 17,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": 294,
       "temperature": 17,
       "delta": 1
@@ -74953,6 +75373,12 @@
       "level": 74,
       "temperature": 16,
       "delta": 1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 74,
+      "temperature": 16,
+      "delta": 1
     }
   ],
   "Коропець__Коропець": [
@@ -76008,6 +76434,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 166,
+      "temperature": 13,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 166,
       "temperature": 13,
       "delta": 0
@@ -77069,6 +77501,12 @@
       "level": 210,
       "temperature": 17,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 210,
+      "temperature": 17,
+      "delta": -1
     }
   ],
   "Дністер__Могилів Подільський": [
@@ -78124,6 +78562,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 113,
+      "temperature": 12,
+      "delta": -8
+    },
+    {
+      "date": "2026-09-16",
       "level": 113,
       "temperature": 12,
       "delta": -8
@@ -79185,6 +79629,12 @@
       "level": 68,
       "temperature": 21,
       "delta": -16
+    },
+    {
+      "date": "2026-09-16",
+      "level": 68,
+      "temperature": 21,
+      "delta": -16
     }
   ],
   "Стрв’яж__Хирів": [
@@ -80240,6 +80690,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 362,
+      "temperature": 14,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 362,
       "temperature": 14,
       "delta": 0
@@ -81301,6 +81757,12 @@
       "level": 240,
       "temperature": 14,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 240,
+      "temperature": 14,
+      "delta": -1
     }
   ],
   "Верещиця__Комарно": [
@@ -82356,6 +82818,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 46,
+      "temperature": 12,
+      "delta": 1
+    },
+    {
+      "date": "2026-09-16",
       "level": 46,
       "temperature": 12,
       "delta": 1
@@ -83417,6 +83885,12 @@
       "level": 207,
       "temperature": 14,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 207,
+      "temperature": 14,
+      "delta": 0
     }
   ],
   "Тисмениця__Дрогобич": [
@@ -84472,6 +84946,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 160,
+      "temperature": 12,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 160,
       "temperature": 12,
       "delta": 0
@@ -85533,6 +86013,12 @@
       "level": 105,
       "temperature": 12,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 105,
+      "temperature": 12,
+      "delta": 0
     }
   ],
   "Орава__Святослав": [
@@ -86588,6 +87074,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 73,
+      "temperature": 11,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 73,
       "temperature": 11,
       "delta": -1
@@ -87649,6 +88141,12 @@
       "level": 20,
       "temperature": 11,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 20,
+      "temperature": 11,
+      "delta": 0
     }
   ],
   "Свіча__Зарічне": [
@@ -88704,6 +89202,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 65,
+      "temperature": 14,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 65,
       "temperature": 14,
       "delta": 0
@@ -89765,6 +90269,12 @@
       "level": 96,
       "temperature": 15,
       "delta": -2
+    },
+    {
+      "date": "2026-09-16",
+      "level": 96,
+      "temperature": 15,
+      "delta": -2
     }
   ],
   "Свиж__Букачівці": [
@@ -90820,6 +91330,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 225,
+      "temperature": 13,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 225,
       "temperature": 13,
       "delta": 0
@@ -91881,6 +92397,12 @@
       "level": 192,
       "temperature": 9,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 192,
+      "temperature": 9,
+      "delta": -1
     }
   ],
   "Бистриця Надвірнянська__Пасічна": [
@@ -92936,6 +93458,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 107,
+      "temperature": 11,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 107,
       "temperature": 11,
       "delta": -1
@@ -93997,6 +94525,12 @@
       "level": 197,
       "temperature": 12,
       "delta": -3
+    },
+    {
+      "date": "2026-09-16",
+      "level": 197,
+      "temperature": 12,
+      "delta": -3
     }
   ],
   "Нічлава__Стрілківці": [
@@ -95052,6 +95586,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 73,
+      "temperature": 17,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 73,
       "temperature": 17,
       "delta": 0
@@ -96113,6 +96653,12 @@
       "level": 131,
       "temperature": 15,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 131,
+      "temperature": 15,
+      "delta": -1
     }
   ],
   "Смотрич__Купин": [
@@ -97168,6 +97714,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 136,
+      "temperature": 14,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 136,
       "temperature": 14,
       "delta": 0
@@ -98229,6 +98781,12 @@
       "level": 296,
       "temperature": 14,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 296,
+      "temperature": 14,
+      "delta": 0
     }
   ],
   "Калюс__Н.Ушиця": [
@@ -99284,6 +99842,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 191,
+      "temperature": 12,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 191,
       "temperature": 12,
       "delta": -1
@@ -100413,6 +100977,12 @@
       "level": 300,
       "temperature": 19,
       "delta": -3
+    },
+    {
+      "date": "2026-09-16",
+      "level": 300,
+      "temperature": 19,
+      "delta": -3
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -101468,6 +102038,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 202,
+      "temperature": 17,
+      "delta": -2
+    },
+    {
+      "date": "2026-09-16",
       "level": 202,
       "temperature": 17,
       "delta": -2
@@ -102529,6 +103105,12 @@
       "level": 312,
       "temperature": 19,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 312,
+      "temperature": 19,
+      "delta": -1
     }
   ],
   "Гнилий Тікич__Лисянка": [
@@ -103584,6 +104166,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 321,
+      "temperature": 15,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 321,
       "temperature": 15,
       "delta": 0
@@ -104645,6 +105233,12 @@
       "level": 220,
       "temperature": 15,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 220,
+      "temperature": 15,
+      "delta": 0
     }
   ],
   "Інгул__Кропивницький": [
@@ -105700,6 +106294,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 334,
+      "temperature": 15,
+      "delta": 27
+    },
+    {
+      "date": "2026-09-16",
       "level": 334,
       "temperature": 15,
       "delta": 27
@@ -106761,6 +107361,12 @@
       "level": 39,
       "temperature": 16,
       "delta": 2
+    },
+    {
+      "date": "2026-09-16",
+      "level": 39,
+      "temperature": 16,
+      "delta": 2
     }
   ],
   "Рибник__Майдан": [
@@ -107816,6 +108422,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 205,
+      "temperature": 12,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 205,
       "temperature": 12,
       "delta": -1
@@ -108877,6 +109489,12 @@
       "level": 59,
       "temperature": 15,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 59,
+      "temperature": 15,
+      "delta": -1
     }
   ],
   "Бистриця Надвірнянська__Черніїв": [
@@ -109932,6 +110550,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 282,
+      "temperature": 17,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 282,
       "temperature": 17,
       "delta": 0
@@ -110993,6 +111617,12 @@
       "level": 346,
       "temperature": 21,
       "delta": 9
+    },
+    {
+      "date": "2026-09-16",
+      "level": 346,
+      "temperature": 21,
+      "delta": 9
     }
   ],
   "Південний Буг__Прибужани": [
@@ -112051,6 +112681,12 @@
       "level": 454,
       "temperature": 17,
       "delta": -6
+    },
+    {
+      "date": "2026-09-16",
+      "level": 454,
+      "temperature": 17,
+      "delta": -6
     }
   ],
   "Ворскла__Полтава": [
@@ -112487,6 +113123,12 @@
       "level": 184,
       "temperature": 13,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 184,
+      "temperature": 13,
+      "delta": 0
     }
   ],
   "Убідь__Кудрівка": [
@@ -112867,6 +113509,12 @@
       "level": 75,
       "temperature": 13,
       "delta": 0
+    },
+    {
+      "date": "2026-09-16",
+      "level": 75,
+      "temperature": 13,
+      "delta": 0
     }
   ],
   "Сейм__Мутин": [
@@ -113244,6 +113892,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 363,
+      "temperature": 18,
+      "delta": -1
+    },
+    {
+      "date": "2026-09-16",
       "level": 363,
       "temperature": 18,
       "delta": -1
@@ -113645,6 +114299,12 @@
       "level": 198,
       "temperature": 16,
       "delta": -1
+    },
+    {
+      "date": "2026-09-16",
+      "level": 198,
+      "temperature": 16,
+      "delta": -1
     }
   ],
   "Прип’ять__Любязь": [
@@ -114040,6 +114700,12 @@
     },
     {
       "date": "2026-09-15",
+      "level": 121,
+      "temperature": 15,
+      "delta": 0
+    },
+    {
+      "date": "2026-09-16",
       "level": 121,
       "temperature": 15,
       "delta": 0
