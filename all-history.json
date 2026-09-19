@@ -8495,7 +8495,7 @@
     {
       "date": "2026-09-19",
       "level": 172,
-      "temperature": 98,
+      "temperature": 9.8,
       "delta": 0
     }
   ],
@@ -20391,7 +20391,7 @@
     {
       "date": "2026-09-19",
       "level": 80,
-      "temperature": 99,
+      "temperature": 9.9,
       "delta": 0
     }
   ],
@@ -45277,7 +45277,7 @@
     {
       "date": "2026-09-19",
       "level": 201,
-      "temperature": 86,
+      "temperature": 8.6,
       "delta": 0
     }
   ],
@@ -80982,9 +80982,9 @@
     },
     {
       "date": "2026-09-19",
-      "level": 79,
-      "temperature": 21,
-      "delta": 3
+      "level": 76,
+      "temperature": 22,
+      "delta": -3
     }
   ],
   "Стрв’яж__Хирів": [
@@ -102690,9 +102690,9 @@
     },
     {
       "date": "2026-09-19",
-      "level": 303,
+      "level": 301,
       "temperature": 18,
-      "delta": 1
+      "delta": -2
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -103773,7 +103773,7 @@
     {
       "date": "2026-09-19",
       "level": 204,
-      "temperature": 17,
+      "temperature": 18,
       "delta": 0
     }
   ],
@@ -105937,8 +105937,8 @@
     {
       "date": "2026-09-19",
       "level": 319,
-      "temperature": 13,
-      "delta": -1
+      "temperature": 15,
+      "delta": 0
     }
   ],
   "Велика Вись__Ямпіль": [
@@ -107018,7 +107018,7 @@
     },
     {
       "date": "2026-09-19",
-      "level": 221,
+      "level": 222,
       "temperature": 14,
       "delta": 1
     }
@@ -114592,9 +114592,9 @@
     },
     {
       "date": "2026-09-19",
-      "level": 469,
+      "level": 463,
       "temperature": 15,
-      "delta": -1
+      "delta": -6
     }
   ],
   "Ворскла__Полтава": [
