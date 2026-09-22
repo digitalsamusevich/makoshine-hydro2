@@ -1094,9 +1094,9 @@
     },
     {
       "date": "2026-09-22",
-      "level": 264,
-      "temperature": 16,
-      "delta": 0
+      "level": 265,
+      "temperature": 15,
+      "delta": 1
     }
   ],
   "Прут__Чернівці": [
@@ -5495,7 +5495,7 @@
     {
       "date": "2026-09-22",
       "level": 98,
-      "temperature": 90,
+      "temperature": 9,
       "delta": 9
     }
   ],
@@ -7695,7 +7695,7 @@
     {
       "date": "2026-09-22",
       "level": 229,
-      "temperature": 94,
+      "temperature": 9.4,
       "delta": 6
     }
   ],
@@ -8639,7 +8639,7 @@
     {
       "date": "2026-09-22",
       "level": 175,
-      "temperature": 84,
+      "temperature": 8.4,
       "delta": 4
     }
   ],
@@ -20733,7 +20733,7 @@
     {
       "date": "2026-09-22",
       "level": 81,
-      "temperature": 85,
+      "temperature": 8.5,
       "delta": 1
     }
   ],
@@ -21833,7 +21833,7 @@
     {
       "date": "2026-09-22",
       "level": -33,
-      "temperature": 92,
+      "temperature": 9.2,
       "delta": 4
     }
   ],
@@ -46033,7 +46033,7 @@
     {
       "date": "2026-09-22",
       "level": 202,
-      "temperature": 80,
+      "temperature": 8,
       "delta": 1
     }
   ],
@@ -82308,9 +82308,9 @@
     },
     {
       "date": "2026-09-22",
-      "level": 82,
+      "level": 66,
       "temperature": 21,
-      "delta": 11
+      "delta": -16
     }
   ],
   "Стрв’яж__Хирів": [
@@ -104376,9 +104376,9 @@
     },
     {
       "date": "2026-09-22",
-      "level": 302,
-      "temperature": 19,
-      "delta": -2
+      "level": 301,
+      "temperature": 18,
+      "delta": -1
     }
   ],
   "Південний Буг__Підгір’я": [
@@ -107676,9 +107676,9 @@
     },
     {
       "date": "2026-09-22",
-      "level": 320,
-      "temperature": 13,
-      "delta": 0
+      "level": 321,
+      "temperature": 14,
+      "delta": 1
     }
   ],
   "Велика Вись__Ямпіль": [
@@ -108777,7 +108777,7 @@
     {
       "date": "2026-09-22",
       "level": 221,
-      "temperature": 15,
+      "temperature": 14,
       "delta": 0
     }
   ],
@@ -115376,9 +115376,9 @@
     },
     {
       "date": "2026-09-22",
-      "level": 348,
+      "level": 350,
       "temperature": 20,
-      "delta": 1
+      "delta": 2
     }
   ],
   "Південний Буг__Прибужани": [
