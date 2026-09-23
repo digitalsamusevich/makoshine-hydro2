@@ -2,7 +2,7 @@
   "ok": true,
   "total_rivers": 63,
   "total_posts": 106,
-  "fetched_at": "2026-09-23T07:51:09.681Z",
+  "fetched_at": "2026-09-23T11:59:54.185Z",
   "rivers": {
     "Бистриця": [
       {
@@ -4487,7 +4487,7 @@
         "water_level_cm": -32,
         "delta_direction": "збільшився",
         "delta_24h_cm": 1,
-        "water_temperature_c": 89,
+        "water_temperature_c": 8.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -5590,7 +5590,7 @@
           {
             "date": "2026-09-23",
             "level": -32,
-            "temperature": 89,
+            "temperature": 8.9,
             "delta": 1
           }
         ],
@@ -5606,7 +5606,7 @@
         "water_level_cm": 96,
         "delta_direction": "зменшився",
         "delta_24h_cm": -2,
-        "water_temperature_c": 88,
+        "water_temperature_c": 8.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -6709,7 +6709,7 @@
           {
             "date": "2026-09-23",
             "level": 96,
-            "temperature": 88,
+            "temperature": 8.8,
             "delta": -2
           }
         ],
@@ -40253,7 +40253,7 @@
         "water_level_cm": 202,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 78,
+        "water_temperature_c": 7.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -41356,7 +41356,7 @@
           {
             "date": "2026-09-23",
             "level": 202,
-            "temperature": 78,
+            "temperature": 7.8,
             "delta": 0
           }
         ],
@@ -68009,7 +68009,7 @@
         "water_level_cm": 226,
         "delta_direction": "зменшився",
         "delta_24h_cm": -3,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -69112,7 +69112,7 @@
           {
             "date": "2026-09-23",
             "level": 226,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": -3
           }
         ],
@@ -79195,7 +79195,7 @@
         "water_level_cm": 174,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 82,
+        "water_temperature_c": 8.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -80142,7 +80142,7 @@
           {
             "date": "2026-09-23",
             "level": 174,
-            "temperature": 82,
+            "temperature": 8.2,
             "delta": -1
           }
         ],
@@ -86864,7 +86864,7 @@
         "water_level_cm": 20,
         "delta_direction": "збільшився",
         "delta_24h_cm": 2,
-        "water_temperature_c": 72,
+        "water_temperature_c": 7.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -87967,7 +87967,7 @@
           {
             "date": "2026-09-23",
             "level": 20,
-            "temperature": 72,
+            "temperature": 7.2,
             "delta": 2
           }
         ],
@@ -114821,7 +114821,7 @@
         "water_level_cm": 81,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 75,
+        "water_temperature_c": 7.5,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -115924,7 +115924,7 @@
           {
             "date": "2026-09-23",
             "level": 81,
-            "temperature": 75,
+            "temperature": 7.5,
             "delta": 0
           }
         ],
@@ -115940,7 +115940,7 @@
         "water_level_cm": 290,
         "delta_direction": "зменшився",
         "delta_24h_cm": -3,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -117043,7 +117043,7 @@
           {
             "date": "2026-09-23",
             "level": 290,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": -3
           }
         ],
