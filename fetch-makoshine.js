@@ -336,6 +336,27 @@ function groupByRiver(postMap, history) {
     const postMap = await scrapeAllMarkers(page, uniqueIndices, cache);
     saveCache(cache);
 
+    // Якщо клік по маркеру цього разу не вдався (тайм-аут, немає popup — clickMarkerAndRead
+    // повертає {ok:false} без винятку), пост просто випадає з postMap без жодної помилки в логах.
+    // 2026-09-29: саме так за один запуск (08:03 UTC) зникли 4 реальні річки (Івотка, Прип'ять,
+    // Сейм, Убідь) — сторінки на сайті стали справжніми 404, а результат все одно писався як
+    // ok:true. Переносимо без змін пости з попереднього файлу, яких не знайшли цього разу — це
+    // тимчасовий глюк кліку/рендеру мапи, не підтвердження, що пост і справді зник назавжди.
+    const prevData = loadJson(OUTPUT_FILE, null);
+    let carriedOver = 0;
+    if (prevData?.rivers) {
+      for (const [riverName, posts] of Object.entries(prevData.rivers)) {
+        for (const p of posts) {
+          const key = `${p.river || riverName}__${p.post}`;
+          if (!postMap[key]) {
+            postMap[key] = { ...p };
+            carriedOver++;
+          }
+        }
+      }
+      if (carriedOver) console.log(`Перенесено без змін (маркер не знайдено цього разу): ${carriedOver} постів`);
+    }
+
     const postCount  = Object.keys(postMap).length;
     console.log(`Зібрано постів: ${postCount}`);
 
