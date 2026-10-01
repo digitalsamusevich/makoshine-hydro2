@@ -244,7 +244,95 @@ async function getUniqueMarkerIndices(page) {
   return result;
 }
 
-// ── Scrape ALL markers ───────────────────────────────────────────────────────
+// ── Leaflet: читаємо popup кожного маркера напряму з шарів карти ────────────
+//
+// 2026-10-01: клік по координатах маркера (scrapeAllMarkers нижче) на дрібній мапі всієї України губив
+// пости: відкритий popup попереднього поста перекривав наступні маркери, а сусідні пости (гирло Дунаю,
+// Прип'ять, Карпати) майже злипаються, тож клік відкривав чужий popup. Реально зчитувалось ~106 зі 174
+// постів, а Прип'ять–Любязь/Річиця днями «застрягали» на старих даних (переносились без змін).
+// Тепер беремо об'єкти маркерів самого Leaflet і відкриваємо popup кожного програмно — геометрія не
+// важлива. Доступ до карти: перехоплюємо L.Map до того, як сторінка її створить (addInitScript).
+
+async function hookLeaflet(page) {
+  await page.addInitScript(() => {
+    window.__hydroMaps = [];
+    let realL;
+    Object.defineProperty(window, 'L', {
+      configurable: true,
+      get: () => realL,
+      set: (v) => {
+        realL = v;
+        // Leaflet спершу ставить window.L = {}, а Map додає пізніше — ловимо саме присвоєння Map
+        let RealMap = v && v.Map;
+        if (!v || typeof v !== 'object') return;
+        Object.defineProperty(v, 'Map', {
+          configurable: true,
+          enumerable: true,
+          get: () => RealMap,
+          set: (M) => {
+            RealMap = M;
+            M.addInitHook(function () { window.__hydroMaps.push(this); });
+          },
+        });
+      },
+    });
+  });
+}
+
+async function readPopupsViaLeaflet(page) {
+  return page.evaluate(async () => {
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+    const texts = [];
+    for (const map of window.__hydroMaps || []) {
+      const markers = [];
+      map.eachLayer((l) => { if (l instanceof window.L.Marker) markers.push(l); });
+      for (const m of markers) {
+        let c = m.getPopup && m.getPopup() && m.getPopup().getContent();
+        if (typeof c === 'function') c = c(m);
+        let txt = '';
+        if (!c || (typeof c === 'string' && !/Пост/.test(c))) {
+          // Popup заповнюється обробником кліку — викликаємо його через Leaflet, не мишею
+          m.fire('click');
+          await sleep(30);
+          c = m.getPopup && m.getPopup() && m.getPopup().getContent();
+          if (typeof c === 'function') c = c(m);
+          if (!c) txt = (document.querySelector('.leaflet-popup-content') || {}).innerText || '';
+        }
+        if (!txt) {
+          if (typeof c === 'string') {
+            const d = document.createElement('div');
+            d.innerHTML = c;
+            txt = d.innerText || d.textContent || '';
+          } else if (c) txt = c.innerText || c.textContent || '';
+        }
+        texts.push(txt);
+      }
+    }
+    return texts;
+  });
+}
+
+function postsFromTexts(texts) {
+  const postMap = {};
+  for (const t of texts) {
+    const p = parsePopupText(t || '');
+    if (!p.post) continue;
+    const key = `${p.river || ''}__${p.post}`;
+    if (postMap[key]) continue;
+    postMap[key] = {
+      post:                p.post,
+      river:               p.river,
+      observed_at:         p.observed_at,
+      water_level_cm:      p.water_level_cm,
+      delta_direction:     p.delta_direction,
+      delta_24h_cm:        p.delta_24h_cm,
+      water_temperature_c: p.water_temperature_c,
+    };
+  }
+  return postMap;
+}
+
+// ── Scrape ALL markers (запасний спосіб: клік мишею по координатах) ─────────
 
 async function scrapeAllMarkers(page, uniqueIndices, cache) {
   const totalCount  = await page.locator('.leaflet-marker-icon').count();
@@ -323,18 +411,29 @@ function groupByRiver(postMap, history) {
 
   try {
     console.log('Завантажуємо сторінку...');
+    await hookLeaflet(page);
     await page.goto(PAGE_URL, { waitUntil: 'domcontentloaded', timeout: 90000 });
     await page.waitForSelector('.leaflet-container',   { timeout: 30000 });
     await page.waitForSelector('.leaflet-marker-icon', { timeout: 30000 });
     await sleep(2000);
 
-    const cache         = loadCache();
-    const uniqueIndices = await getUniqueMarkerIndices(page);
-    console.log(`Унікальних маркерів: ${uniqueIndices.length}`);
-
-    // Збираємо всі пости
-    const postMap = await scrapeAllMarkers(page, uniqueIndices, cache);
-    saveCache(cache);
+    // Основний спосіб — через шари Leaflet; якщо карту перехопити не вдалось або постів підозріло мало —
+    // запасний: клік по маркерах, як раніше
+    let postMap = {};
+    try {
+      postMap = postsFromTexts(await readPopupsViaLeaflet(page));
+    } catch (e) {
+      console.log(`Leaflet: помилка ${e.message}`);
+    }
+    console.log(`Leaflet: зчитано постів ${Object.keys(postMap).length}`);
+    if (Object.keys(postMap).length < 50) {
+      console.log('Замало постів через Leaflet — запасний спосіб: клік по маркерах');
+      const cache         = loadCache();
+      const uniqueIndices = await getUniqueMarkerIndices(page);
+      console.log(`Унікальних маркерів: ${uniqueIndices.length}`);
+      postMap = await scrapeAllMarkers(page, uniqueIndices, cache);
+      saveCache(cache);
+    }
 
     // Якщо клік по маркеру цього разу не вдався (тайм-аут, немає popup — clickMarkerAndRead
     // повертає {ok:false} без винятку), пост просто випадає з postMap без жодної помилки в логах.
