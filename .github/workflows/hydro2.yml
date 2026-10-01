@@ -6,7 +6,8 @@ name: Hydro scraper — all rivers
 #   замість заявлених ~100 запусків на добу реально спрацьовувало 7–8, з провалами по 4–5 год саме тоді,
 #   коли УкрГМЦ публікує ранкові дані.
 # - schedule нижче — запасний варіант, на «негладких» хвилинах (на :00/:30 черга GitHub найдовша).
-# Коли дані постів справді змінились — одразу смикаємо деплой сайту (секрет SITE_DEPLOY_HOOK).
+# Коли дані постів справді змінились — одразу смикаємо деплой сайтів: huphub.link (SITE_DEPLOY_HOOK) і
+# ai-soft.org.ua (AI_SOFT_DEPLOY_HOOK) — обидва читають all-posts.json.
 
 on:
   workflow_dispatch:
@@ -62,10 +63,13 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         env:
           HOOK: ${{ secrets.SITE_DEPLOY_HOOK }}
+          HOOK_AI_SOFT: ${{ secrets.AI_SOFT_DEPLOY_HOOK }}
         run: |
-          if [ -z "$HOOK" ]; then echo "SITE_DEPLOY_HOOK не задано — пропускаємо"; exit 0; fi
+          if [ -z "$HOOK$HOOK_AI_SOFT" ]; then echo "SITE_DEPLOY_HOOK / AI_SOFT_DEPLOY_HOOK не задано — пропускаємо"; exit 0; fi
           sleep 300
-          curl -fsS -X POST "$HOOK" > /dev/null && echo "Деплой сайту запущено"
+          # huphub.link і ai-soft.org.ua — обидва беруть дані з all-posts.json
+          if [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" > /dev/null && echo "Деплой huphub.link запущено"; fi
+          if [ -n "$HOOK_AI_SOFT" ]; then curl -fsS -X POST "$HOOK_AI_SOFT" > /dev/null && echo "Деплой ai-soft.org.ua запущено"; fi
 
       - name: Upload all-posts.json
         uses: actions/upload-artifact@v4
