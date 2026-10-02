@@ -2,7 +2,7 @@
   "ok": true,
   "total_rivers": 91,
   "total_posts": 175,
-  "fetched_at": "2026-10-02T07:04:10.995Z",
+  "fetched_at": "2026-10-02T13:55:51.425Z",
   "rivers": {
     "Бистриця": [
       {
@@ -12,7 +12,7 @@
         "water_level_cm": 207,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -1169,7 +1169,7 @@
           {
             "date": "2026-10-02",
             "level": 207,
-            "temperature": 90,
+            "temperature": 9,
             "delta": 0
           }
         ],
@@ -1184,7 +1184,7 @@
         "water_level_cm": 103,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 80,
+        "water_temperature_c": 8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -2341,7 +2341,7 @@
           {
             "date": "2026-10-02",
             "level": 103,
-            "temperature": 80,
+            "temperature": 8,
             "delta": -1
           }
         ],
@@ -3526,7 +3526,7 @@
         "water_level_cm": 194,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 76,
+        "water_temperature_c": 7.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -4683,7 +4683,7 @@
           {
             "date": "2026-10-02",
             "level": 194,
-            "temperature": 76,
+            "temperature": 7.6,
             "delta": -1
           }
         ],
@@ -4722,7 +4722,7 @@
         "water_level_cm": -38,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 51,
+        "water_temperature_c": 5.1,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -5879,7 +5879,7 @@
           {
             "date": "2026-10-02",
             "level": -38,
-            "temperature": 51,
+            "temperature": 5.1,
             "delta": 0
           }
         ],
@@ -5894,7 +5894,7 @@
         "water_level_cm": 87,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 52,
+        "water_temperature_c": 5.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -7051,7 +7051,7 @@
           {
             "date": "2026-10-02",
             "level": 87,
-            "temperature": 52,
+            "temperature": 5.2,
             "delta": -1
           }
         ],
@@ -8236,7 +8236,7 @@
         "water_level_cm": 88,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -9393,7 +9393,7 @@
           {
             "date": "2026-10-02",
             "level": 88,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": 0
           }
         ],
@@ -10580,7 +10580,7 @@
         "water_level_cm": 87,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 82,
+        "water_temperature_c": 8.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -11737,7 +11737,7 @@
           {
             "date": "2026-10-02",
             "level": 87,
-            "temperature": 82,
+            "temperature": 8.2,
             "delta": -1
           }
         ],
@@ -29514,7 +29514,7 @@
         "water_level_cm": 75,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -30671,7 +30671,7 @@
           {
             "date": "2026-10-02",
             "level": 75,
-            "temperature": 90,
+            "temperature": 9,
             "delta": -1
           }
         ],
@@ -33048,7 +33048,7 @@
         "water_level_cm": 43,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 70,
+        "water_temperature_c": 7,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -34205,7 +34205,7 @@
           {
             "date": "2026-10-02",
             "level": 43,
-            "temperature": 70,
+            "temperature": 7,
             "delta": 0
           }
         ],
@@ -38896,7 +38896,7 @@
         "water_level_cm": 124,
         "delta_direction": "збільшився",
         "delta_24h_cm": 1,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -38907,7 +38907,7 @@
           {
             "date": "2026-10-02",
             "level": 124,
-            "temperature": 90,
+            "temperature": 9,
             "delta": 1
           }
         ],
@@ -38920,7 +38920,7 @@
         "water_level_cm": 139,
         "delta_direction": "зменшився",
         "delta_24h_cm": -2,
-        "water_temperature_c": 67,
+        "water_temperature_c": 6.7,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -40077,7 +40077,7 @@
           {
             "date": "2026-10-02",
             "level": 139,
-            "temperature": 67,
+            "temperature": 6.7,
             "delta": -2
           }
         ],
@@ -40092,7 +40092,7 @@
         "water_level_cm": 58,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 40,
+        "water_temperature_c": 4,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -41249,7 +41249,7 @@
           {
             "date": "2026-10-02",
             "level": 58,
-            "temperature": 40,
+            "temperature": 4,
             "delta": -1
           }
         ],
@@ -42458,7 +42458,7 @@
         "water_level_cm": 203,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 98,
+        "water_temperature_c": 9.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -43615,7 +43615,7 @@
           {
             "date": "2026-10-02",
             "level": 203,
-            "temperature": 98,
+            "temperature": 9.8,
             "delta": 0
           }
         ],
@@ -43630,7 +43630,7 @@
         "water_level_cm": 219,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 68,
+        "water_temperature_c": 6.8,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -43641,7 +43641,7 @@
           {
             "date": "2026-10-02",
             "level": 219,
-            "temperature": 68,
+            "temperature": 6.8,
             "delta": 0
           }
         ],
@@ -43704,7 +43704,7 @@
         "water_level_cm": 151,
         "delta_direction": "збільшився",
         "delta_24h_cm": 1,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -43715,7 +43715,7 @@
           {
             "date": "2026-10-02",
             "level": 151,
-            "temperature": 90,
+            "temperature": 9,
             "delta": 1
           }
         ],
@@ -48902,7 +48902,7 @@
         "water_level_cm": -31,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 72,
+        "water_temperature_c": 7.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -50059,7 +50059,7 @@
           {
             "date": "2026-10-02",
             "level": -31,
-            "temperature": 72,
+            "temperature": 7.2,
             "delta": -1
           }
         ],
@@ -50074,7 +50074,7 @@
         "water_level_cm": 188,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 89,
+        "water_temperature_c": 8.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -51231,7 +51231,7 @@
           {
             "date": "2026-10-02",
             "level": 188,
-            "temperature": 89,
+            "temperature": 8.9,
             "delta": 0
           }
         ],
@@ -51246,7 +51246,7 @@
         "water_level_cm": 165,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 86,
+        "water_temperature_c": 8.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -52403,7 +52403,7 @@
           {
             "date": "2026-10-02",
             "level": 165,
-            "temperature": 86,
+            "temperature": 8.6,
             "delta": 0
           }
         ],
@@ -53612,7 +53612,7 @@
         "water_level_cm": 59,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 72,
+        "water_temperature_c": 7.2,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -53623,7 +53623,7 @@
           {
             "date": "2026-10-02",
             "level": 59,
-            "temperature": 72,
+            "temperature": 7.2,
             "delta": 0
           }
         ],
@@ -53686,7 +53686,7 @@
         "water_level_cm": 190,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 56,
+        "water_temperature_c": 5.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -54843,7 +54843,7 @@
           {
             "date": "2026-10-02",
             "level": 190,
-            "temperature": 56,
+            "temperature": 5.6,
             "delta": 0
           }
         ],
@@ -56080,7 +56080,7 @@
         "water_level_cm": -12,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 81,
+        "water_temperature_c": 8.1,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -56091,7 +56091,7 @@
           {
             "date": "2026-10-02",
             "level": -12,
-            "temperature": 81,
+            "temperature": 8.1,
             "delta": 0
           }
         ],
@@ -56106,7 +56106,7 @@
         "water_level_cm": -12,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 60,
+        "water_temperature_c": 6,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -56117,7 +56117,7 @@
           {
             "date": "2026-10-02",
             "level": -12,
-            "temperature": 60,
+            "temperature": 6,
             "delta": -1
           }
         ],
@@ -57304,7 +57304,7 @@
         "water_level_cm": 155,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 50,
+        "water_temperature_c": 5,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -57315,7 +57315,7 @@
           {
             "date": "2026-10-02",
             "level": 155,
-            "temperature": 50,
+            "temperature": 5,
             "delta": 0
           }
         ],
@@ -57330,7 +57330,7 @@
         "water_level_cm": 72,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 62,
+        "water_temperature_c": 6.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -58487,7 +58487,7 @@
           {
             "date": "2026-10-02",
             "level": 72,
-            "temperature": 62,
+            "temperature": 6.2,
             "delta": 0
           }
         ],
@@ -62038,7 +62038,7 @@
         "water_level_cm": 212,
         "delta_direction": "збільшився",
         "delta_24h_cm": 3,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -62049,7 +62049,7 @@
           {
             "date": "2026-10-02",
             "level": 212,
-            "temperature": 90,
+            "temperature": 9,
             "delta": 3
           }
         ],
@@ -68866,7 +68866,7 @@
         "water_level_cm": 176,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 38,
+        "water_temperature_c": 3.8,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -68877,7 +68877,7 @@
           {
             "date": "2026-10-02",
             "level": 176,
-            "temperature": 38,
+            "temperature": 3.8,
             "delta": 0
           }
         ],
@@ -68914,7 +68914,7 @@
         "water_level_cm": 110,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -68925,7 +68925,7 @@
           {
             "date": "2026-10-02",
             "level": 110,
-            "temperature": 90,
+            "temperature": 9,
             "delta": 0
           }
         ],
@@ -68938,7 +68938,7 @@
         "water_level_cm": -31,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 89,
+        "water_temperature_c": 8.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -70095,7 +70095,7 @@
           {
             "date": "2026-10-02",
             "level": -31,
-            "temperature": 89,
+            "temperature": 8.9,
             "delta": -1
           }
         ],
@@ -70108,7 +70108,7 @@
         "water_level_cm": 131,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 84,
+        "water_temperature_c": 8.4,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -70119,7 +70119,7 @@
           {
             "date": "2026-10-02",
             "level": 131,
-            "temperature": 84,
+            "temperature": 8.4,
             "delta": 0
           }
         ],
@@ -73646,7 +73646,7 @@
         "water_level_cm": 226,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 52,
+        "water_temperature_c": 5.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -74803,7 +74803,7 @@
           {
             "date": "2026-10-02",
             "level": 226,
-            "temperature": 52,
+            "temperature": 5.2,
             "delta": 0
           }
         ],
@@ -74818,7 +74818,7 @@
         "water_level_cm": 8,
         "delta_direction": "збільшився",
         "delta_24h_cm": 2,
-        "water_temperature_c": 84,
+        "water_temperature_c": 8.4,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -74829,7 +74829,7 @@
           {
             "date": "2026-10-02",
             "level": 8,
-            "temperature": 84,
+            "temperature": 8.4,
             "delta": 2
           }
         ],
@@ -74868,7 +74868,7 @@
         "water_level_cm": 203,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 68,
+        "water_temperature_c": 6.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -76025,7 +76025,7 @@
           {
             "date": "2026-10-02",
             "level": 203,
-            "temperature": 68,
+            "temperature": 6.8,
             "delta": 0
           }
         ],
@@ -76040,7 +76040,7 @@
         "water_level_cm": 8,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 83,
+        "water_temperature_c": 8.3,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -76051,7 +76051,7 @@
           {
             "date": "2026-10-02",
             "level": 8,
-            "temperature": 83,
+            "temperature": 8.3,
             "delta": 0
           }
         ],
@@ -76088,7 +76088,7 @@
         "water_level_cm": 160,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 46,
+        "water_temperature_c": 4.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -77245,7 +77245,7 @@
           {
             "date": "2026-10-02",
             "level": 160,
-            "temperature": 46,
+            "temperature": 4.6,
             "delta": 0
           }
         ],
@@ -81944,7 +81944,7 @@
         "water_level_cm": 227,
         "delta_direction": "зменшився",
         "delta_24h_cm": -2,
-        "water_temperature_c": 97,
+        "water_temperature_c": 9.7,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -83101,7 +83101,7 @@
           {
             "date": "2026-10-02",
             "level": 227,
-            "temperature": 97,
+            "temperature": 9.7,
             "delta": -2
           }
         ],
@@ -84288,7 +84288,7 @@
         "water_level_cm": 66,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -85445,7 +85445,7 @@
           {
             "date": "2026-10-02",
             "level": 66,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": 0
           }
         ],
@@ -85972,7 +85972,7 @@
         "water_level_cm": 171,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 51,
+        "water_temperature_c": 5.1,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -86973,7 +86973,7 @@
           {
             "date": "2026-10-02",
             "level": 171,
-            "temperature": 51,
+            "temperature": 5.1,
             "delta": -1
           }
         ],
@@ -94062,7 +94062,7 @@
         "water_level_cm": 16,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 39,
+        "water_temperature_c": 3.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -95219,7 +95219,7 @@
           {
             "date": "2026-10-02",
             "level": 16,
-            "temperature": 39,
+            "temperature": 3.9,
             "delta": -1
           }
         ],
@@ -96454,7 +96454,7 @@
         "water_level_cm": 94,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -96465,7 +96465,7 @@
           {
             "date": "2026-10-02",
             "level": 94,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": 0
           }
         ],
@@ -98948,7 +98948,7 @@
         "water_level_cm": 68,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 96,
+        "water_temperature_c": 9.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -100105,7 +100105,7 @@
           {
             "date": "2026-10-02",
             "level": 68,
-            "temperature": 96,
+            "temperature": 9.6,
             "delta": 0
           }
         ],
@@ -100146,7 +100146,7 @@
         "water_level_cm": 237,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 84,
+        "water_temperature_c": 8.4,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -101303,7 +101303,7 @@
           {
             "date": "2026-10-02",
             "level": 237,
-            "temperature": 84,
+            "temperature": 8.4,
             "delta": 0
           }
         ],
@@ -101316,7 +101316,7 @@
         "water_level_cm": 361,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 81,
+        "water_temperature_c": 8.1,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -102473,7 +102473,7 @@
           {
             "date": "2026-10-02",
             "level": 361,
-            "temperature": 81,
+            "temperature": 8.1,
             "delta": 0
           }
         ],
@@ -102488,7 +102488,7 @@
         "water_level_cm": 90,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 43,
+        "water_temperature_c": 4.3,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -102499,7 +102499,7 @@
           {
             "date": "2026-10-02",
             "level": 90,
-            "temperature": 43,
+            "temperature": 4.3,
             "delta": 0
           }
         ],
@@ -102512,7 +102512,7 @@
         "water_level_cm": 40,
         "delta_direction": "зменшився",
         "delta_24h_cm": -3,
-        "water_temperature_c": 84,
+        "water_temperature_c": 8.4,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -102523,7 +102523,7 @@
           {
             "date": "2026-10-02",
             "level": 40,
-            "temperature": 84,
+            "temperature": 8.4,
             "delta": -3
           }
         ],
@@ -102536,7 +102536,7 @@
         "water_level_cm": 104,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 57,
+        "water_temperature_c": 5.7,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -103693,7 +103693,7 @@
           {
             "date": "2026-10-02",
             "level": 104,
-            "temperature": 57,
+            "temperature": 5.7,
             "delta": 0
           }
         ],
@@ -103756,7 +103756,7 @@
         "water_level_cm": 8,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 90,
+        "water_temperature_c": 9,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -103767,7 +103767,7 @@
           {
             "date": "2026-10-02",
             "level": 8,
-            "temperature": 90,
+            "temperature": 9,
             "delta": 0
           }
         ],
@@ -103782,7 +103782,7 @@
         "water_level_cm": 124,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 72,
+        "water_temperature_c": 7.2,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -103793,7 +103793,7 @@
           {
             "date": "2026-10-02",
             "level": 124,
-            "temperature": 72,
+            "temperature": 7.2,
             "delta": 0
           }
         ],
@@ -103834,7 +103834,7 @@
         "water_level_cm": 34,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 62,
+        "water_temperature_c": 6.2,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -103845,7 +103845,7 @@
           {
             "date": "2026-10-02",
             "level": 34,
-            "temperature": 62,
+            "temperature": 6.2,
             "delta": 0
           }
         ],
@@ -105030,7 +105030,7 @@
         "water_level_cm": -33,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 67,
+        "water_temperature_c": 6.7,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -105041,7 +105041,7 @@
           {
             "date": "2026-10-02",
             "level": -33,
-            "temperature": 67,
+            "temperature": 6.7,
             "delta": 0
           }
         ],
@@ -109738,7 +109738,7 @@
         "water_level_cm": 2,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 80,
+        "water_temperature_c": 8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -110895,7 +110895,7 @@
           {
             "date": "2026-10-02",
             "level": 2,
-            "temperature": 80,
+            "temperature": 8,
             "delta": 0
           }
         ],
@@ -113248,7 +113248,7 @@
         "water_level_cm": -115,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 70,
+        "water_temperature_c": 7,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -113259,7 +113259,7 @@
           {
             "date": "2026-10-02",
             "level": -115,
-            "temperature": 70,
+            "temperature": 7,
             "delta": -1
           }
         ],
@@ -114444,7 +114444,7 @@
         "water_level_cm": 157,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -115601,7 +115601,7 @@
           {
             "date": "2026-10-02",
             "level": 157,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": 0
           }
         ],
@@ -115642,7 +115642,7 @@
         "water_level_cm": -15,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 88,
+        "water_temperature_c": 8.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -116799,7 +116799,7 @@
           {
             "date": "2026-10-02",
             "level": -15,
-            "temperature": 88,
+            "temperature": 8.8,
             "delta": 0
           }
         ],
@@ -116812,7 +116812,7 @@
         "water_level_cm": 94,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 92,
+        "water_temperature_c": 9.2,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -117969,7 +117969,7 @@
           {
             "date": "2026-10-02",
             "level": 94,
-            "temperature": 92,
+            "temperature": 9.2,
             "delta": -1
           }
         ],
@@ -119746,7 +119746,7 @@
         "water_level_cm": -8,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 46,
+        "water_temperature_c": 4.6,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -119757,7 +119757,7 @@
           {
             "date": "2026-10-02",
             "level": -8,
-            "temperature": 46,
+            "temperature": 4.6,
             "delta": 0
           }
         ],
@@ -120966,7 +120966,7 @@
         "water_level_cm": 294,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 98,
+        "water_temperature_c": 9.8,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -122123,7 +122123,7 @@
           {
             "date": "2026-10-02",
             "level": 294,
-            "temperature": 98,
+            "temperature": 9.8,
             "delta": 0
           }
         ],
@@ -122138,7 +122138,7 @@
         "water_level_cm": 230,
         "delta_direction": "зменшився",
         "delta_24h_cm": -2,
-        "water_temperature_c": 96,
+        "water_temperature_c": 9.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -123295,7 +123295,7 @@
           {
             "date": "2026-10-02",
             "level": 230,
-            "temperature": 96,
+            "temperature": 9.6,
             "delta": -2
           }
         ],
@@ -123308,7 +123308,7 @@
         "water_level_cm": 9,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 69,
+        "water_temperature_c": 6.9,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -124465,7 +124465,7 @@
           {
             "date": "2026-10-02",
             "level": 9,
-            "temperature": 69,
+            "temperature": 6.9,
             "delta": 0
           }
         ],
@@ -124480,7 +124480,7 @@
         "water_level_cm": 123,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 72,
+        "water_temperature_c": 7.2,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -124491,7 +124491,7 @@
           {
             "date": "2026-10-02",
             "level": 123,
-            "temperature": 72,
+            "temperature": 7.2,
             "delta": -1
           }
         ],
@@ -124506,7 +124506,7 @@
         "water_level_cm": 78,
         "delta_direction": "зменшився",
         "delta_24h_cm": -1,
-        "water_temperature_c": 57,
+        "water_temperature_c": 5.7,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -125663,7 +125663,7 @@
           {
             "date": "2026-10-02",
             "level": 78,
-            "temperature": 57,
+            "temperature": 5.7,
             "delta": -1
           }
         ],
@@ -125678,7 +125678,7 @@
         "water_level_cm": 280,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 76,
+        "water_temperature_c": 7.6,
         "history_points": [
           {
             "date": "2026-03-24",
@@ -126835,7 +126835,7 @@
           {
             "date": "2026-10-02",
             "level": 280,
-            "temperature": 76,
+            "temperature": 7.6,
             "delta": 0
           }
         ],
@@ -126876,7 +126876,7 @@
         "water_level_cm": 211,
         "delta_direction": "без змін",
         "delta_24h_cm": 0,
-        "water_temperature_c": 50,
+        "water_temperature_c": 5,
         "history_points": [
           {
             "date": "2026-10-01",
@@ -126887,7 +126887,7 @@
           {
             "date": "2026-10-02",
             "level": 211,
-            "temperature": 50,
+            "temperature": 5,
             "delta": 0
           }
         ],
