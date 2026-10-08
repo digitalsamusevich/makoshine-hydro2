@@ -4,7 +4,10 @@
 // (workflow_dispatch через вбудований GITHUB_TOKEN — нових секретів не треба), тож ланцюжок безперервний,
 // а cron лишився лише запасним «перезапуском», якщо ланцюжок обірвався.
 //
-// Частота: поки сьогоднішніх (за Києвом) даних немає — кожні 10 хв; коли є — раз на годину (уточнення, температура).
+// Частота: поки сьогоднішніх (за Києвом) даних немає — кожні 10 хв, а в ранкове вікно 08:30–10:30 за Києвом —
+// кожні 3 хв; коли є — раз на годину (уточнення, температура). Ранкове вікно (2026-10-08): УкрГМЦ викладає
+// спостереження 08:00 приблизно о 08:50–09:40 (історія комітів 25.09–08.10), а на ai-soft.org.ua дані мають бути
+// до 09:30 — 10 хв очікування плюс кеш raw і білд у це не вкладались.
 // Коміт — коли дані постів змінились, а без змін — раз на 3 год (fetched_at), щоб health-check бачив, що парсер живий.
 // Після коміту зі зміненими даними — деплой-хуки сайтів (SITE_DEPLOY_HOOK, AI_SOFT_DEPLOY_HOOK), якщо задані.
 //
@@ -15,6 +18,8 @@ const fs = require('fs');
 const LOOP_MIN = Number(process.env.LOOP_MINUTES || 320);
 const DRY = process.env.DRY_RUN === '1';
 const FAST_MS = 10 * 60e3;
+const MORNING_MS = 3 * 60e3;
+const MORNING_KYIV = [8 * 60 + 30, 10 * 60 + 30]; // хвилини доби за Києвом
 const SLOW_MS = 60 * 60e3;
 const RETRY_MS = 5 * 60e3;
 const HEARTBEAT_MS = 3 * 3600e3;
@@ -45,6 +50,13 @@ const headJson = (f) => {
 // «08.10.2026» за Києвом — у такому форматі observed_at від УкрГМЦ
 const todayKyiv = () =>
 	new Intl.DateTimeFormat('uk-UA', { timeZone: 'Europe/Kyiv', day: '2-digit', month: '2-digit', year: 'numeric' }).format(new Date());
+const inMorning = () => {
+	const [h, m] = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Kyiv', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
+		.format(new Date())
+		.split(':')
+		.map(Number);
+	return h * 60 + m >= MORNING_KYIV[0] && h * 60 + m < MORNING_KYIV[1];
+};
 const todayShare = (data) => {
 	const posts = Object.values((data && data.rivers) || {}).flat();
 	const t = todayKyiv();
@@ -79,22 +91,30 @@ function commit(message) {
 	return false;
 }
 
-async function triggerDeploys() {
-	const hooks = [
-		['huphub.link', process.env.SITE_DEPLOY_HOOK],
-		['ai-soft.org.ua', process.env.AI_SOFT_DEPLOY_HOOK],
-	].filter(([, h]) => h);
-	if (!hooks.length) return log('SITE_DEPLOY_HOOK / AI_SOFT_DEPLOY_HOOK не задано — сайт оновиться лише власним розкладом');
-	if (DRY) return log(`[DRY] деплой: ${hooks.map(([n]) => n).join(', ')}`);
-	await sleep(RAW_CACHE_MS);
-	for (const [name, hook] of hooks) {
-		try {
-			const res = await fetch(hook, { method: 'POST' });
-			log(`Деплой ${name}: ${res.status}`);
-		} catch (e) {
-			log(`Деплой ${name} не вдався: ${e.message}`);
-		}
+// rawCache: чи читає білд сайту файли з гілки main (тоді чекаємо, поки кеш raw.githubusercontent.com оновиться).
+// ai-soft.org.ua з 2026-10-08 читає дані за SHA коміту (ai-soft-site/src/lib/water-source.mjs) — йому хук одразу.
+const HOOKS = [
+	{ name: 'ai-soft.org.ua', hook: process.env.AI_SOFT_DEPLOY_HOOK, rawCache: false },
+	{ name: 'huphub.link', hook: process.env.SITE_DEPLOY_HOOK, rawCache: true },
+].filter((h) => h.hook);
+
+async function deploy({ name, hook }) {
+	try {
+		const res = await fetch(hook, { method: 'POST' });
+		log(`Деплой ${name}: ${res.status}`);
+	} catch (e) {
+		log(`Деплой ${name} не вдався: ${e.message}`);
 	}
+}
+
+async function triggerDeploys() {
+	if (!HOOKS.length) return log('SITE_DEPLOY_HOOK / AI_SOFT_DEPLOY_HOOK не задано — сайт оновиться лише власним розкладом');
+	if (DRY) return log(`[DRY] деплой: ${HOOKS.map((h) => h.name).join(', ')}`);
+	for (const h of HOOKS.filter((h) => !h.rawCache)) await deploy(h);
+	const later = HOOKS.filter((h) => h.rawCache);
+	if (!later.length) return;
+	await sleep(RAW_CACHE_MS);
+	for (const h of later) await deploy(h);
 }
 
 (async () => {
@@ -104,7 +124,7 @@ async function triggerDeploys() {
 	while (Date.now() < deadline) {
 		runs++;
 		const ok = scrape();
-		let wait = RETRY_MS;
+		let wait = inMorning() ? MORNING_MS : RETRY_MS;
 		if (ok) {
 			const next = readJson('all-posts.json');
 			const changed = next.ok !== false && sig(headJson('all-posts.json')) !== sig(next);
@@ -119,7 +139,7 @@ async function triggerDeploys() {
 			} else if (Date.now() - lastCommit >= HEARTBEAT_MS) {
 				if (commit(`heartbeat — hydro data unchanged ${stamp} UTC`)) lastCommit = Date.now();
 			}
-			wait = share >= COMPLETE_SHARE ? SLOW_MS : FAST_MS;
+			wait = share >= COMPLETE_SHARE ? SLOW_MS : inMorning() ? MORNING_MS : FAST_MS;
 		}
 		const left = deadline - Date.now();
 		if (left <= 0) break;
