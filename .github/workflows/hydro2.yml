@@ -1,31 +1,36 @@
 name: Hydro scraper — all rivers
 
-# Хто запускає (2026-10-01):
-# - основний «будильник» — Cloudflare Worker hydro-cron кожні 15 хв (workflow_dispatch через GitHub API;
-#   код і налаштування — seo-site/workers/hydro-cron). Розклад GitHub для частих запусків ненадійний:
-#   замість заявлених ~100 запусків на добу реально спрацьовувало 7–8, з провалами по 4–5 год саме тоді,
-#   коли УкрГМЦ публікує ранкові дані.
-# - schedule нижче — запасний варіант, на «негладких» хвилинах (на :00/:30 черга GitHub найдовша).
-# Коли дані постів справді змінились — одразу смикаємо деплой сайтів: huphub.link (SITE_DEPLOY_HOOK) і
-# ai-soft.org.ua (AI_SOFT_DEPLOY_HOOK) — обидва читають all-posts.json.
+# Як це працює (2026-10-08, замість частого cron):
+# - Один запуск = «зміна» ~5,5 год: watch.js сам перевіряє джерело кожні 10 хв, поки сьогоднішніх даних немає,
+#   і раз на годину — коли вже є; комітить зміни й смикає деплой сайтів (SITE_DEPLOY_HOOK, AI_SOFT_DEPLOY_HOOK).
+# - Наприкінці зміна запускає наступну (workflow_dispatch через вбудований GITHUB_TOKEN — нових секретів не треба).
+#   Тож ланцюжок безперервний і не залежить від розкладу GitHub, який для частих запусків ненадійний:
+#   замість заявлених запусків кожні 30 хв реально було ~5 на добу, з провалами до 7 год (08.10: 02:01 → 09:06 UTC).
+# - schedule нижче — лише запасний перезапуск, якщо ланцюжок обірвався (впав раннер тощо). Поки зміна працює,
+#   запасні запуски чекають у черзі (concurrency) і скасовуються наступною зміною — це нормально.
+# Репозиторій публічний, тож хвилини Actions безкоштовні.
 
 on:
   workflow_dispatch:
+  # Зміна самого «чергового» запускає його одразу (коміти даних від GITHUB_TOKEN нових запусків не створюють)
+  push:
+    branches: [main]
+    paths: ['.github/workflows/hydro2.yml', 'watch.js', 'fetch-makoshine.js']
   schedule:
-    - cron: '17,47 * * * *'
+    - cron: '41 */2 * * *'
 
-# Новий запуск чекає завершення попереднього, а не вбиває його (раніше cancel-in-progress губив запуски)
 concurrency:
   group: hydro2-scraper
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 350
 
     steps:
       - name: Checkout repository
@@ -42,37 +47,21 @@ jobs:
       - name: Install Playwright browser and Linux deps
         run: npx playwright install --with-deps chromium
 
-      - name: Run scraper
-        run: node fetch-makoshine.js
-
-      - name: Did the data change?
-        id: diff
-        run: node data-changed.js
-
-      - name: Commit data to repo
+      - name: Watch the source and commit new data
+        id: watch
+        env:
+          LOOP_MINUTES: '320'
+          SITE_DEPLOY_HOOK: ${{ secrets.SITE_DEPLOY_HOOK }}
+          AI_SOFT_DEPLOY_HOOK: ${{ secrets.AI_SOFT_DEPLOY_HOOK }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add all-posts.json all-history.json marker-cache.json
-          git commit -m "update hydro data — all rivers $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "no changes"
-          git pull --rebase || true
-          git push
+          node watch.js
 
-      # raw.githubusercontent.com кешує файл до ~5 хв — чекаємо, щоб білд сайту взяв уже нові дані
-      - name: Trigger site rebuild
-        if: steps.diff.outputs.changed == 'true'
+      # Наступна зміна — лише якщо цикл справді відпрацював (watch.js пише chain=true); при ранньому збої
+      # ланцюжок не крутиться «кільцем», а чекає запасного cron.
+      - name: Start the next shift
+        if: always() && steps.watch.outputs.chain == 'true'
         env:
-          HOOK: ${{ secrets.SITE_DEPLOY_HOOK }}
-          HOOK_AI_SOFT: ${{ secrets.AI_SOFT_DEPLOY_HOOK }}
-        run: |
-          if [ -z "$HOOK$HOOK_AI_SOFT" ]; then echo "SITE_DEPLOY_HOOK / AI_SOFT_DEPLOY_HOOK не задано — пропускаємо"; exit 0; fi
-          sleep 300
-          # huphub.link і ai-soft.org.ua — обидва беруть дані з all-posts.json
-          if [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" > /dev/null && echo "Деплой huphub.link запущено"; fi
-          if [ -n "$HOOK_AI_SOFT" ]; then curl -fsS -X POST "$HOOK_AI_SOFT" > /dev/null && echo "Деплой ai-soft.org.ua запущено"; fi
-
-      - name: Upload all-posts.json
-        uses: actions/upload-artifact@v4
-        with:
-          name: all-posts-json
-          path: all-posts.json
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run hydro2.yml --ref "${{ github.ref_name }}"
