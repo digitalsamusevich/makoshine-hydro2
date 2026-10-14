@@ -1,4 +1,9 @@
-const { chromium } = require('playwright');
+// 2026-10-14: основне джерело — JSON, з якого сама карта УкрГМЦ будує спливні вікна: /_/m/hydroday.js (рівні
+// всіх постів, ~21 КБ) + /ua/_hydro-posts.js (назви й річки, ~36 КБ, кешуємо на добу). Без браузера: запит
+// триває секунди замість запуску Chromium і «кліків» по ~175 маркерах. Playwright — лише запасний спосіб, якщо
+// JSON недоступний чи змінив формат (браузер тоді ставиться на льоту). Перевірено: 174 зі 175 постів збігаються
+// до цифри зі старим способом (рівень, зміна, дата); Ізмаїл карта не показує (FR_BS = 0) — як і раніше,
+// переноситься з попереднього файлу.
 const fs   = require('fs');
 const path = require('path');
 
@@ -6,6 +11,15 @@ const PAGE_URL    = 'https://www.meteo.gov.ua/ua/Shchodenna-hidrolohichna-situac
 const CACHE_FILE   = path.join(__dirname, 'marker-cache.json');
 const OUTPUT_FILE  = path.join(__dirname, 'all-posts.json');
 const HISTORY_FILE = path.join(__dirname, 'all-history.json');
+const DICT_FILE    = path.join(__dirname, 'hydro-posts-dict.json');
+const LEVELS_URL   = 'https://www.meteo.gov.ua/_/m/hydroday.js';
+const DICT_URL     = 'https://www.meteo.gov.ua/ua/_hydro-posts.js';
+// Без Referer сервер віддає 403 — запит як зі сторінки карти
+const HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (compatible; huphub-hydro/1.0; +https://huphub.link/riven-vody/)',
+  'Referer':    PAGE_URL,
+  'Accept':     'application/json, text/javascript, */*',
+};
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -22,7 +36,8 @@ function loadJson(filePath, fallback) {
 }
 
 function saveJson(filePath, data) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  // Компактно: all-posts.json 3,8 → ~1,4 МБ, all-history.json 2,5 → ~1,4 МБ на кожен коміт (2026-10-14)
+  fs.writeFileSync(filePath, JSON.stringify(data), 'utf8');
 }
 
 const loadCache   = () => loadJson(CACHE_FILE,   {});
@@ -385,10 +400,10 @@ function groupByRiver(postMap, history) {
 
     const histItems = history[key] || [];
 
+    // chart_url (посилання QuickChart) прибрано 2026-10-14: жоден сайт його не використовує
     rivers[riverName].push({
       ...p,
       history_points: histItems,
-      chart_url:      buildQuickChartUrl(p.post, histItems),
     });
   }
 
@@ -403,44 +418,123 @@ function groupByRiver(postMap, history) {
   );
 }
 
-// ── Entry point ───────────────────────────────────────────────────────────────
+// ── JSON-джерело (основний спосіб) ──────────────────────────────────────────
 
-(async () => {
-  const browser = await chromium.launch({ headless: true, slowMo: 0 });
-  const page    = await browser.newPage({ viewport: { width: 1600, height: 1000 } });
+async function getText(url, attempts = 3) {
+  let last;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url, { headers: HEADERS, signal: AbortSignal.timeout(30000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);
+      return await res.text();
+    } catch (e) {
+      last = e;
+      await sleep(3000 * (i + 1));
+    }
+  }
+  throw last;
+}
 
+/** Довідник постів {id: {R: річка, P: пост}} — з кешу, якщо свіжий (< 24 год) і містить усі id */
+async function loadDict(ids) {
+  const cached = loadJson(DICT_FILE, null);
+  const fresh = cached && Date.now() - Date.parse(cached.fetched_at) < 24 * 3600e3;
+  if (fresh && ids.every((id) => cached.posts[id] || cached.unknown?.includes(id))) return cached.posts;
+  const src = await getText(`${DICT_URL}?${Date.now()}`);
+  const posts = JSON.parse(src.slice(src.indexOf('{'), src.lastIndexOf('}') + 1));
+  saveJson(DICT_FILE, { fetched_at: new Date().toISOString(), posts, unknown: ids.filter((id) => !posts[id]) });
+  return posts;
+}
+
+/** Пости у тому самому вигляді, що й зі спливних вікон карти (ті самі правила, що в коді сайту УкрГМЦ) */
+async function postsFromJson() {
+  const levels = JSON.parse(await getText(`${LEVELS_URL}?${Date.now()}`));
+  const ids = Object.keys(levels).filter((k) => k !== '0');
+  const dict = await loadDict(ids);
+  const postMap = {};
+  for (const id of ids) {
+    const d = levels[id], meta = dict[id];
+    // Карта пропускає пости без довідника та з FR_BS = 0 — робимо так само
+    if (!meta || !d || Number(d.FR_BS) === 0 || d.FR == null) continue;
+    const dm = Math.round(parseFloat(d.C_FR) * 100); // зміна в метрах → см
+    const tw = parseFloat(d.TW);
+    const key = `${meta.R}__${meta.P}`;
+    if (postMap[key]) continue;
+    postMap[key] = {
+      post:                meta.P,
+      river:               meta.R,
+      observed_at:         `${d.PD}, 08:00`,
+      water_level_cm:      parseInt(d.FR, 10),
+      delta_direction:     dm > 0 ? 'збільшився' : dm < 0 ? 'зменшився' : 'без змін',
+      delta_24h_cm:        Number.isFinite(dm) ? dm : null,
+      water_temperature_c: tw > 0 ? tw : null,
+    };
+  }
+  return postMap;
+}
+
+// ── Браузер (запасний спосіб) ───────────────────────────────────────────────
+
+async function postsFromBrowser() {
+  let chromium;
   try {
-    console.log('Завантажуємо сторінку...');
+    ({ chromium } = require('playwright'));
+  } catch (e) {
+    throw new Error('Playwright не встановлено (npm install), а JSON-джерело недоступне');
+  }
+  let browser;
+  try {
+    browser = await chromium.launch({ headless: true });
+  } catch (e) {
+    console.log('Браузера немає — ставимо Chromium для запасного способу...');
+    require('child_process').execSync('npx playwright install --with-deps chromium', { stdio: 'inherit' });
+    browser = await chromium.launch({ headless: true });
+  }
+  const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } });
+  try {
     await hookLeaflet(page);
     await page.goto(PAGE_URL, { waitUntil: 'domcontentloaded', timeout: 90000 });
     await page.waitForSelector('.leaflet-container',   { timeout: 30000 });
     await page.waitForSelector('.leaflet-marker-icon', { timeout: 30000 });
     await sleep(2000);
-
-    // Основний спосіб — через шари Leaflet; якщо карту перехопити не вдалось або постів підозріло мало —
-    // запасний: клік по маркерах, як раніше
     let postMap = {};
     try {
       postMap = postsFromTexts(await readPopupsViaLeaflet(page));
     } catch (e) {
       console.log(`Leaflet: помилка ${e.message}`);
     }
-    console.log(`Leaflet: зчитано постів ${Object.keys(postMap).length}`);
     if (Object.keys(postMap).length < 50) {
-      console.log('Замало постів через Leaflet — запасний спосіб: клік по маркерах');
       const cache         = loadCache();
       const uniqueIndices = await getUniqueMarkerIndices(page);
-      console.log(`Унікальних маркерів: ${uniqueIndices.length}`);
       postMap = await scrapeAllMarkers(page, uniqueIndices, cache);
       saveCache(cache);
     }
+    return postMap;
+  } finally {
+    await browser.close();
+  }
+}
 
-    // Якщо клік по маркеру цього разу не вдався (тайм-аут, немає popup — clickMarkerAndRead
-    // повертає {ok:false} без винятку), пост просто випадає з postMap без жодної помилки в логах.
-    // 2026-09-29: саме так за один запуск (08:03 UTC) зникли 4 реальні річки (Івотка, Прип'ять,
-    // Сейм, Убідь) — сторінки на сайті стали справжніми 404, а результат все одно писався як
-    // ok:true. Переносимо без змін пости з попереднього файлу, яких не знайшли цього разу — це
-    // тимчасовий глюк кліку/рендеру мапи, не підтвердження, що пост і справді зник назавжди.
+// ── Entry point ───────────────────────────────────────────────────────────────
+
+(async () => {
+  try {
+    let postMap = {};
+    try {
+      postMap = await postsFromJson();
+      console.log(`JSON УкрГМЦ: постів ${Object.keys(postMap).length}`);
+    } catch (e) {
+      console.log(`JSON УкрГМЦ недоступний: ${e.message}`);
+    }
+    if (Object.keys(postMap).length < 50) {
+      console.log('Замало постів із JSON — запасний спосіб через браузер');
+      postMap = await postsFromBrowser();
+      console.log(`Браузер: постів ${Object.keys(postMap).length}`);
+    }
+
+    // Пости, яких цього разу немає в джерелі, переносимо з попереднього файлу без змін (див. історію 2026-09-29:
+    // тимчасовий збій не має перетворювати сторінки постів на 404). Дата спостереження лишається старою — сайти
+    // показують її чесно.
     const prevData = loadJson(OUTPUT_FILE, null);
     let carriedOver = 0;
     if (prevData?.rivers) {
@@ -448,46 +542,30 @@ function groupByRiver(postMap, history) {
         for (const p of posts) {
           const key = `${p.river || riverName}__${p.post}`;
           if (!postMap[key]) {
-            postMap[key] = { ...p };
+            const { history_points, chart_url, ...rest } = p;
+            postMap[key] = rest;
             carriedOver++;
           }
         }
       }
-      if (carriedOver) console.log(`Перенесено без змін (маркер не знайдено цього разу): ${carriedOver} постів`);
+      if (carriedOver) console.log(`Перенесено без змін (немає в джерелі цього разу): ${carriedOver} постів`);
     }
 
-    const postCount  = Object.keys(postMap).length;
-    console.log(`Зібрано постів: ${postCount}`);
-
-    // Оновлюємо повну історію (без обмежень)
-    const history = updateHistory(postMap);
-
-    // Групуємо по річках
-    const grouped    = groupByRiver(postMap, history);
-    const riverCount = Object.keys(grouped).length;
-
+    const postCount = Object.keys(postMap).length;
+    const history   = updateHistory(postMap);
+    const grouped   = groupByRiver(postMap, history);
     const result = {
       ok:           true,
-      total_rivers: riverCount,
+      total_rivers: Object.keys(grouped).length,
       total_posts:  postCount,
       fetched_at:   new Date().toISOString(),
       rivers:       grouped,
     };
-
     saveJson(OUTPUT_FILE, result);
-    console.log(`Збережено: ${riverCount} річок, ${postCount} постів → all-posts.json`);
-
+    console.log(`Збережено: ${result.total_rivers} річок, ${postCount} постів → all-posts.json`);
   } catch (err) {
     console.error('ПОМИЛКА:', err.message);
-
-    saveJson(OUTPUT_FILE, {
-      ok:         false,
-      error:      err.message,
-      fetched_at: new Date().toISOString(),
-    });
-
+    saveJson(OUTPUT_FILE, { ok: false, error: err.message, fetched_at: new Date().toISOString() });
     process.exit(1);
-  } finally {
-    await browser.close();
   }
 })();
